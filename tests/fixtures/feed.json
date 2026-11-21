@@ -1,0 +1,130 @@
+{
+  "object": "model.examples.list",
+  "count": 4,
+  "models": [
+    {
+      "slug": "kimi-k3",
+      "name": "Kimi K3",
+      "provider": "Moonshot AI",
+      "category": "Text Generation",
+      "description": "Kimi K3 is Moonshot's flagship reasoning model with a 1M token context, always-on thinking, native web search, and text, image, and video inputs.",
+      "endpoint": {
+        "method": "POST",
+        "path": "/v1/chat/completions"
+      },
+      "intro": "Kimi K3 serves the OpenAI-compatible Chat Completions API. Point any OpenAI SDK at `https://api.empiriolabs.ai/v1` with your EmpirioLabs API key and use the model id `kimi-k3`.",
+      "blocks": [
+        {
+          "kind": "curl",
+          "title": "cURL",
+          "language": "bash",
+          "code": "curl https://api.empiriolabs.ai/v1/chat/completions \\\n  -H \"Authorization: Bearer $EMPIRIOLABS_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"model\": \"kimi-k3\",\n    \"messages\": [\n      {\"role\": \"user\", \"content\": \"Write a haiku about the ocean.\"}\n    ]\n  }'"
+        },
+        {
+          "kind": "python-openai",
+          "title": "Python (OpenAI SDK)",
+          "language": "python",
+          "code": "from openai import OpenAI\n\nclient = OpenAI(\n    base_url=\"https://api.empiriolabs.ai/v1\",\n    api_key=\"YOUR_EMPIRIOLABS_API_KEY\",\n)\n\nresponse = client.chat.completions.create(\n    model=\"kimi-k3\",\n    messages=[{\"role\": \"user\", \"content\": \"Write a haiku about the ocean.\"}],\n)\nprint(response.choices[0].message.content)"
+        }
+      ],
+      "links": {
+        "page": "https://empiriolabs.ai/models/kimi-k3",
+        "docs": "https://docs.empiriolabs.ai/models/kimi-k3",
+        "playground": "https://platform.empiriolabs.ai/dashboard/playground?model=kimi-k3"
+      }
+    },
+    {
+      "slug": "qwen3-8-omni-flash-realtime",
+      "name": "Qwen3.8 Omni Flash Realtime",
+      "provider": "Alibaba Cloud",
+      "category": "Audio Generation",
+      "description": "Speech and live video frames in, speech out over one socket, with 56 voices, tool calling during the conversation, and separate text and audio token rates.",
+      "endpoint": {
+        "method": "WEBSOCKET",
+        "path": "/v1/realtime"
+      },
+      "intro": "Qwen3.8 Omni Flash Realtime holds a live conversation over a WebSocket at `wss://api.empiriolabs.ai/v1/realtime?model=qwen3-8-omni-flash-realtime`, not over the HTTP endpoints. Connect with the model id `qwen3-8-omni-flash-realtime` and send your EmpirioLabs API key as an `Authorization: Bearer` header on the handshake. Audio travels both ways as base64 16-bit PCM. A browser cannot set headers on a WebSocket, so open this connection from your server and relay audio to the browser over your own socket.",
+      "blocks": [
+        {
+          "kind": "python-websocket",
+          "title": "Python (websockets)",
+          "language": "python",
+          "code": "import asyncio, json, os, websockets\n\nasync def main():\n    async with websockets.connect(\n        \"wss://api.empiriolabs.ai/v1/realtime?model=qwen3-8-omni-flash-realtime\",\n        additional_headers=[\n            (\"Authorization\", f\"Bearer {os.environ['EMPIRIOLABS_API_KEY']}\"),\n        ],\n        max_size=None,\n    ) as ws:\n        print(json.loads(await ws.recv())[\"type\"])  # session.created\n\n        await ws.send(json.dumps({\n            \"type\": \"conversation.item.create\",\n            \"item\": {\n                \"type\": \"message\",\n                \"role\": \"user\",\n                \"content\": [{\"type\": \"input_text\", \"text\": \"Say hello.\"}],\n            },\n        }))\n        await ws.send(json.dumps({\"type\": \"response.create\"}))\n\n        async for raw in ws:\n            event = json.loads(raw)\n            if event[\"type\"] == \"response.audio.delta\":\n                ...  # base64 audio chunk, append to your playback buffer\n            elif event[\"type\"] == \"response.done\":\n                break\n\nasyncio.run(main())"
+        }
+      ],
+      "links": {
+        "page": "https://empiriolabs.ai/models/qwen3-8-omni-flash-realtime",
+        "docs": "https://docs.empiriolabs.ai/models/qwen3-8-omni-flash-realtime",
+        "playground": null
+      }
+    },
+    {
+      "slug": "seedream-5-5",
+      "name": "Seedream 5.5",
+      "provider": "ByteDance",
+      "category": "Image Generation",
+      "description": "Seedream image model with native transparent output, precise multi-round editing, and decomposition into up to 99 editable layers with text recognition.",
+      "endpoint": {
+        "method": "POST",
+        "path": "/v1/images/generations"
+      },
+      "intro": "Seedream 5.5 runs through `POST /v1/images/generations`. The request returns a `job_id` right away; poll `GET /v1/jobs/{job_id}` until the job completes and read the output URLs from the result. Or add `\"sync\": true` to skip polling: the request stays open and returns the finished OpenAI-style image response directly, so OpenAI SDKs work as-is.",
+      "blocks": [
+        {
+          "kind": "curl-submit",
+          "title": "cURL: submit the job",
+          "language": "bash",
+          "code": "curl https://api.empiriolabs.ai/v1/images/generations \\\n  -H \"Authorization: Bearer $EMPIRIOLABS_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"model\": \"seedream-5-5\",\n    \"prompt\": \"Describe what you want Seedream 5.5 to generate.\"\n  }'"
+        },
+        {
+          "kind": "curl-poll",
+          "title": "cURL: poll for the result",
+          "language": "bash",
+          "code": "curl https://api.empiriolabs.ai/v1/jobs/JOB_ID \\\n  -H \"Authorization: Bearer $EMPIRIOLABS_API_KEY\""
+        },
+        {
+          "kind": "python",
+          "title": "Python",
+          "language": "python",
+          "code": "import requests\n\nresponse = requests.post(\n    \"https://api.empiriolabs.ai/v1/images/generations\",\n    headers={\"Authorization\": \"Bearer YOUR_EMPIRIOLABS_API_KEY\"},\n    json={\n        \"model\": \"seedream-5-5\",\n        \"prompt\": \"Describe what you want Seedream 5.5 to generate.\",\n    },\n)\njob = response.json()\n\n# Generation runs as an async job. Poll until it completes.\nimport time\nwhile True:\n    status = requests.get(\n        f\"https://api.empiriolabs.ai/v1/jobs/{job['job_id']}\",\n        headers={\"Authorization\": \"Bearer YOUR_EMPIRIOLABS_API_KEY\"},\n    ).json()\n    if status.get(\"status\") in (\"completed\", \"failed\"):\n        print(status)\n        break\n    time.sleep(5)"
+        }
+      ],
+      "links": {
+        "page": "https://empiriolabs.ai/models/seedream-5-5",
+        "docs": "https://docs.empiriolabs.ai/models/seedream-5-5",
+        "playground": "https://platform.empiriolabs.ai/dashboard/playground?model=seedream-5-5"
+      }
+    },
+    {
+      "slug": "skylark-embedding-vision",
+      "name": "Skylark Embedding Vision",
+      "provider": "ByteDance",
+      "category": "Embeddings",
+      "description": "Multimodal embedding that fuses text, images, and video into one 1024 or 2048 dimension vector for cross-modal search and retrieval.",
+      "endpoint": {
+        "method": "POST",
+        "path": "/v1/embeddings"
+      },
+      "intro": "Skylark Embedding Vision serves the OpenAI-compatible Embeddings API. Point any OpenAI SDK at `https://api.empiriolabs.ai/v1` and use the model id `skylark-embedding-vision`.",
+      "blocks": [
+        {
+          "kind": "curl",
+          "title": "cURL",
+          "language": "bash",
+          "code": "curl https://api.empiriolabs.ai/v1/embeddings \\\n  -H \"Authorization: Bearer $EMPIRIOLABS_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n    \"model\": \"skylark-embedding-vision\",\n    \"input\": \"The quick brown fox jumps over the lazy dog.\"\n  }'"
+        },
+        {
+          "kind": "python-openai",
+          "title": "Python (OpenAI SDK)",
+          "language": "python",
+          "code": "from openai import OpenAI\n\nclient = OpenAI(\n    base_url=\"https://api.empiriolabs.ai/v1\",\n    api_key=\"YOUR_EMPIRIOLABS_API_KEY\",\n)\n\nembedding = client.embeddings.create(\n    model=\"skylark-embedding-vision\",\n    input=\"The quick brown fox jumps over the lazy dog.\",\n)\nprint(embedding.data[0].embedding[:8])"
+        }
+      ],
+      "links": {
+        "page": "https://empiriolabs.ai/models/skylark-embedding-vision",
+        "docs": "https://docs.empiriolabs.ai/models/skylark-embedding-vision",
+        "playground": "https://platform.empiriolabs.ai/dashboard/playground?model=skylark-embedding-vision"
+      }
+    }
+  ]
+}
