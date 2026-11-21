@@ -1,0 +1,16 @@
+{
+  "client_id": "https://raw.githubusercontent.com/EmpirioLabs-AI/examples/main/oauth/client.json",
+  "client_name": "EmpirioLabs AI examples",
+  "client_uri": "https://github.com/EmpirioLabs-AI/examples",
+  "redirect_uris": [
+    "http://127.0.0.1/callback",
+    "http://localhost/callback"
+  ],
+  "grant_types": [
+    "authorization_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}

@@ -213,7 +213,8 @@ def render_file(model, block, name):
             "# " + title,
             "# " + model["page"],
             "set -euo pipefail",
-            ": \"${EMPIRIOLABS_API_KEY:?Set EMPIRIOLABS_API_KEY to your API key from " + KEY_URL + "}\"",
+            ": \"${EMPIRIOLABS_API_KEY:?Sign in first with login.py at the repository root, or set an API key from "
+            + KEY_URL + "}\"",
             "",
             body,
             "",
@@ -223,7 +224,8 @@ def render_file(model, block, name):
     doc = [
         '"""' + title + ".",
         "",
-        "Set EMPIRIOLABS_API_KEY to your API key first: " + KEY_URL,
+        "Sign in first with login.py at the repository root, or set EMPIRIOLABS_API_KEY to an API key from",
+        KEY_URL + ".",
     ]
     if needs:
         doc.append("Requires: pip install " + " ".join(needs))
@@ -232,7 +234,7 @@ def render_file(model, block, name):
 
 
 def run_lines(model, names):
-    lines = ['export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."   # ' + KEY_URL]
+    lines = ['eval "$(python ../../login.py)"   # sign in, or: export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."']
     for block in model["blocks"]:
         name = names[block["kind"]]
         if block["kind"] == "curl-poll":
@@ -315,8 +317,10 @@ def render_index(models):
         "",
         "## Get started",
         "",
-        "1. Create an API key at " + KEY_URL + " (keys start with `sk-empiriolabs-`).",
-        "2. Set it in your shell: `export EMPIRIOLABS_API_KEY=\"sk-empiriolabs-...\"`",
+        "1. Sign in with your browser, no key to copy: `eval \"$(python login.py)\"` (PowerShell: "
+        "`python login.py --powershell | iex`). The connection appears in Settings > Connected applications, where "
+        "Disconnect revokes it.",
+        "2. Or create an API key at " + KEY_URL + " and set it: `export EMPIRIOLABS_API_KEY=\"sk-empiriolabs-...\"`.",
         "3. Open a model's folder and run a file, for example `bash models/kimi-k3/request.sh`, or follow the folder's README.",
         "",
         "Requests are billed to your EmpirioLabs AI account at each model's listed price (https://empiriolabs.ai/pricing).",

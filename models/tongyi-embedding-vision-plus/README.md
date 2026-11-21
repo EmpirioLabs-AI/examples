@@ -14,7 +14,7 @@ Tongyi Embedding Vision Plus serves the OpenAI-compatible Embeddings API. Point 
 ## Run
 
 ```bash
-export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."   # https://platform.empiriolabs.ai/dashboard/api-keys
+eval "$(python ../../login.py)"   # sign in, or: export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."
 bash request.sh
 pip install openai && python example.py
 ```
@@ -28,7 +28,7 @@ pip install openai && python example.py
 # Tongyi Embedding Vision Plus, cURL
 # https://empiriolabs.ai/models/tongyi-embedding-vision-plus
 set -euo pipefail
-: "${EMPIRIOLABS_API_KEY:?Set EMPIRIOLABS_API_KEY to your API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
+: "${EMPIRIOLABS_API_KEY:?Sign in first with login.py at the repository root, or set an API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
 
 curl https://api.empiriolabs.ai/v1/embeddings \
   -H "Authorization: Bearer $EMPIRIOLABS_API_KEY" \
@@ -46,7 +46,8 @@ curl https://api.empiriolabs.ai/v1/embeddings \
 ```python
 """Tongyi Embedding Vision Plus, Python (OpenAI SDK).
 
-Set EMPIRIOLABS_API_KEY to your API key first: https://platform.empiriolabs.ai/dashboard/api-keys
+Sign in first with login.py at the repository root, or set EMPIRIOLABS_API_KEY to an API key from
+https://platform.empiriolabs.ai/dashboard/api-keys.
 Requires: pip install openai
 https://empiriolabs.ai/models/tongyi-embedding-vision-plus
 """

@@ -24,8 +24,8 @@ One folder per model on [EmpirioLabs AI](https://empiriolabs.ai), with the same 
 
 ## Get started
 
-1. Create an API key at https://platform.empiriolabs.ai/dashboard/api-keys (keys start with `sk-empiriolabs-`).
-2. Set it in your shell: `export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."`
+1. Sign in with your browser, no key to copy: `eval "$(python login.py)"` (PowerShell: `python login.py --powershell | iex`). The connection appears in Settings > Connected applications, where Disconnect revokes it.
+2. Or create an API key at https://platform.empiriolabs.ai/dashboard/api-keys and set it: `export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."`.
 3. Open a model's folder and run a file, for example `bash models/kimi-k3/request.sh`, or follow the folder's README.
 
 Requests are billed to your EmpirioLabs AI account at each model's listed price (https://empiriolabs.ai/pricing).

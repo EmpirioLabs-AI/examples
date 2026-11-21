@@ -14,7 +14,7 @@ Stable Audio 2.5 runs through `POST /v1/audio/generations`. The request returns 
 ## Run
 
 ```bash
-export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."   # https://platform.empiriolabs.ai/dashboard/api-keys
+eval "$(python ../../login.py)"   # sign in, or: export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."
 bash submit.sh
 JOB_ID=<the job_id submit.sh returned> bash poll.sh
 pip install requests && python example.py
@@ -29,7 +29,7 @@ pip install requests && python example.py
 # Stable Audio 2.5, cURL: submit the job
 # https://empiriolabs.ai/models/stable-audio-2-5
 set -euo pipefail
-: "${EMPIRIOLABS_API_KEY:?Set EMPIRIOLABS_API_KEY to your API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
+: "${EMPIRIOLABS_API_KEY:?Sign in first with login.py at the repository root, or set an API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
 
 curl https://api.empiriolabs.ai/v1/audio/generations \
   -H "Authorization: Bearer $EMPIRIOLABS_API_KEY" \
@@ -49,7 +49,7 @@ curl https://api.empiriolabs.ai/v1/audio/generations \
 # Stable Audio 2.5, cURL: poll for the result
 # https://empiriolabs.ai/models/stable-audio-2-5
 set -euo pipefail
-: "${EMPIRIOLABS_API_KEY:?Set EMPIRIOLABS_API_KEY to your API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
+: "${EMPIRIOLABS_API_KEY:?Sign in first with login.py at the repository root, or set an API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
 
 curl https://api.empiriolabs.ai/v1/jobs/${JOB_ID:?Set JOB_ID to the job_id that submit.sh returned} \
   -H "Authorization: Bearer $EMPIRIOLABS_API_KEY"
@@ -62,7 +62,8 @@ curl https://api.empiriolabs.ai/v1/jobs/${JOB_ID:?Set JOB_ID to the job_id that 
 ```python
 """Stable Audio 2.5, Python.
 
-Set EMPIRIOLABS_API_KEY to your API key first: https://platform.empiriolabs.ai/dashboard/api-keys
+Sign in first with login.py at the repository root, or set EMPIRIOLABS_API_KEY to an API key from
+https://platform.empiriolabs.ai/dashboard/api-keys.
 Requires: pip install requests
 https://empiriolabs.ai/models/stable-audio-2-5
 """

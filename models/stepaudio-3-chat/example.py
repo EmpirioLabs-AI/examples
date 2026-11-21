@@ -1,6 +1,7 @@
 """StepAudio 3 Chat, Python (OpenAI SDK).
 
-Set EMPIRIOLABS_API_KEY to your API key first: https://platform.empiriolabs.ai/dashboard/api-keys
+Sign in first with login.py at the repository root, or set EMPIRIOLABS_API_KEY to an API key from
+https://platform.empiriolabs.ai/dashboard/api-keys.
 Requires: pip install openai
 https://empiriolabs.ai/models/stepaudio-3-chat
 """

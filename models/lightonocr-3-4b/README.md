@@ -14,7 +14,7 @@ LightOnOCR-3 4B reads PDFs and images through POST /v1/ocr and returns each page
 ## Run
 
 ```bash
-export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."   # https://platform.empiriolabs.ai/dashboard/api-keys
+eval "$(python ../../login.py)"   # sign in, or: export EMPIRIOLABS_API_KEY="sk-empiriolabs-..."
 bash request.sh
 pip install requests && python example.py
 ```
@@ -28,7 +28,7 @@ pip install requests && python example.py
 # LightOnOCR-3 4B, cURL
 # https://empiriolabs.ai/models/lightonocr-3-4b
 set -euo pipefail
-: "${EMPIRIOLABS_API_KEY:?Set EMPIRIOLABS_API_KEY to your API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
+: "${EMPIRIOLABS_API_KEY:?Sign in first with login.py at the repository root, or set an API key from https://platform.empiriolabs.ai/dashboard/api-keys}"
 
 curl https://api.empiriolabs.ai/v1/ocr \
   -H "Authorization: Bearer $EMPIRIOLABS_API_KEY" \
@@ -51,7 +51,8 @@ curl https://api.empiriolabs.ai/v1/ocr \
 ```python
 """LightOnOCR-3 4B, Python.
 
-Set EMPIRIOLABS_API_KEY to your API key first: https://platform.empiriolabs.ai/dashboard/api-keys
+Sign in first with login.py at the repository root, or set EMPIRIOLABS_API_KEY to an API key from
+https://platform.empiriolabs.ai/dashboard/api-keys.
 Requires: pip install requests
 https://empiriolabs.ai/models/lightonocr-3-4b
 """
