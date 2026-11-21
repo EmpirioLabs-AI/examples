@@ -98,3 +98,5 @@ while True:
 - [Qwen Image 3.0 pricing and specs](https://empiriolabs.ai/models/qwen-image-3-0)
 - [Qwen Image 3.0 API reference](https://docs.empiriolabs.ai/models/qwen-image-3-0)
 - [Try Qwen Image 3.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen-image-3-0)
+
+[All EmpirioLabs AI examples](../../README.md)

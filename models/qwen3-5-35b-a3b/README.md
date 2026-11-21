@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.5 35B-A3B pricing and specs](https://empiriolabs.ai/models/qwen3-5-35b-a3b)
 - [Qwen3.5 35B-A3B API reference](https://docs.empiriolabs.ai/models/qwen3-5-35b-a3b)
 - [Try Qwen3.5 35B-A3B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-5-35b-a3b)
+
+[All EmpirioLabs AI examples](../../README.md)

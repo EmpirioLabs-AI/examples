@@ -69,3 +69,5 @@ with open("speech.mp3", "wb") as f:
 - [GLM TTS pricing and specs](https://empiriolabs.ai/models/glm-tts)
 - [GLM TTS API reference](https://docs.empiriolabs.ai/models/glm-tts)
 - [Try GLM TTS in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=glm-tts)
+
+[All EmpirioLabs AI examples](../../README.md)

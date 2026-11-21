@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [GLM 5.2 pricing and specs](https://empiriolabs.ai/models/glm-5-2)
 - [GLM 5.2 API reference](https://docs.empiriolabs.ai/models/glm-5-2)
 - [Try GLM 5.2 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=glm-5-2)
+
+[All EmpirioLabs AI examples](../../README.md)

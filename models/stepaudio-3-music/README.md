@@ -98,3 +98,5 @@ while True:
 - [StepAudio 3 Music pricing and specs](https://empiriolabs.ai/models/stepaudio-3-music)
 - [StepAudio 3 Music API reference](https://docs.empiriolabs.ai/models/stepaudio-3-music)
 - [Try StepAudio 3 Music in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stepaudio-3-music)
+
+[All EmpirioLabs AI examples](../../README.md)

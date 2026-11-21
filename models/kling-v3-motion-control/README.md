@@ -98,3 +98,5 @@ while True:
 - [Kling v3 Motion Control pricing and specs](https://empiriolabs.ai/models/kling-v3-motion-control)
 - [Kling v3 Motion Control API reference](https://docs.empiriolabs.ai/models/kling-v3-motion-control)
 - [Try Kling v3 Motion Control in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=kling-v3-motion-control)
+
+[All EmpirioLabs AI examples](../../README.md)

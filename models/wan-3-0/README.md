@@ -98,3 +98,5 @@ while True:
 - [Wan 3.0 pricing and specs](https://empiriolabs.ai/models/wan-3-0)
 - [Wan 3.0 API reference](https://docs.empiriolabs.ai/models/wan-3-0)
 - [Try Wan 3.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=wan-3-0)
+
+[All EmpirioLabs AI examples](../../README.md)

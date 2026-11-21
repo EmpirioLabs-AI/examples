@@ -98,3 +98,5 @@ while True:
 - [MOSS Video and Audio pricing and specs](https://empiriolabs.ai/models/moss-video-and-audio)
 - [MOSS Video and Audio API reference](https://docs.empiriolabs.ai/models/moss-video-and-audio)
 - [Try MOSS Video and Audio in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=moss-video-and-audio)
+
+[All EmpirioLabs AI examples](../../README.md)

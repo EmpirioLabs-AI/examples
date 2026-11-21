@@ -98,3 +98,5 @@ while True:
 - [GPT Image 2 pricing and specs](https://empiriolabs.ai/models/gpt-image-2)
 - [GPT Image 2 API reference](https://docs.empiriolabs.ai/models/gpt-image-2)
 - [Try GPT Image 2 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=gpt-image-2)
+
+[All EmpirioLabs AI examples](../../README.md)

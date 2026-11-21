@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Kimi K3 pricing and specs](https://empiriolabs.ai/models/kimi-k3)
 - [Kimi K3 API reference](https://docs.empiriolabs.ai/models/kimi-k3)
 - [Try Kimi K3 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=kimi-k3)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -71,3 +71,5 @@ print(embedding.data[0].embedding[:8])
 - [Text Embedding v4 pricing and specs](https://empiriolabs.ai/models/text-embedding-v4)
 - [Text Embedding v4 API reference](https://docs.empiriolabs.ai/models/text-embedding-v4)
 - [Try Text Embedding v4 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=text-embedding-v4)
+
+[All EmpirioLabs AI examples](../../README.md)

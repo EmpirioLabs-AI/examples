@@ -69,3 +69,5 @@ with open("speech.mp3", "wb") as f:
 - [TTS 1.5 Mini pricing and specs](https://empiriolabs.ai/models/tts-1-5-mini)
 - [TTS 1.5 Mini API reference](https://docs.empiriolabs.ai/models/tts-1-5-mini)
 - [Try TTS 1.5 Mini in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=tts-1-5-mini)
+
+[All EmpirioLabs AI examples](../../README.md)

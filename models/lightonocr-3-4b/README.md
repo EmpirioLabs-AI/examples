@@ -83,3 +83,5 @@ print(result["usage_info"]["pages_processed"])
 - [LightOnOCR-3 4B pricing and specs](https://empiriolabs.ai/models/lightonocr-3-4b)
 - [LightOnOCR-3 4B API reference](https://docs.empiriolabs.ai/models/lightonocr-3-4b)
 - [Try LightOnOCR-3 4B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=lightonocr-3-4b)
+
+[All EmpirioLabs AI examples](../../README.md)

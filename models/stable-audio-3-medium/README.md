@@ -98,3 +98,5 @@ while True:
 - [Stable Audio 3 Medium pricing and specs](https://empiriolabs.ai/models/stable-audio-3-medium)
 - [Stable Audio 3 Medium API reference](https://docs.empiriolabs.ai/models/stable-audio-3-medium)
 - [Try Stable Audio 3 Medium in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stable-audio-3-medium)
+
+[All EmpirioLabs AI examples](../../README.md)

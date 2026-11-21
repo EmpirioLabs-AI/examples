@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [MiMo V2.6 Pro pricing and specs](https://empiriolabs.ai/models/mimo-v2-6-pro)
 - [MiMo V2.6 Pro API reference](https://docs.empiriolabs.ai/models/mimo-v2-6-pro)
 - [Try MiMo V2.6 Pro in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=mimo-v2-6-pro)
+
+[All EmpirioLabs AI examples](../../README.md)

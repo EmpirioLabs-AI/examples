@@ -66,3 +66,5 @@ asyncio.run(main())
 
 - [Gemini 3.8 Live Extended Thinking pricing and specs](https://empiriolabs.ai/models/gemini-3-8-live-extended-thinking)
 - [Gemini 3.8 Live Extended Thinking API reference](https://docs.empiriolabs.ai/models/gemini-3-8-live-extended-thinking)
+
+[All EmpirioLabs AI examples](../../README.md)

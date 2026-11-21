@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Linkup Deep Search pricing and specs](https://empiriolabs.ai/models/linkup-deep-search)
 - [Linkup Deep Search API reference](https://docs.empiriolabs.ai/models/linkup-deep-search)
 - [Try Linkup Deep Search in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=linkup-deep-search)
+
+[All EmpirioLabs AI examples](../../README.md)

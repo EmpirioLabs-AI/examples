@@ -98,3 +98,5 @@ while True:
 - [Qwen Audio 3.0 ASR pricing and specs](https://empiriolabs.ai/models/qwen-audio-3-0-asr)
 - [Qwen Audio 3.0 ASR API reference](https://docs.empiriolabs.ai/models/qwen-audio-3-0-asr)
 - [Try Qwen Audio 3.0 ASR in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen-audio-3-0-asr)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -43,3 +43,5 @@ curl https://api.empiriolabs.ai/v1/research \
 - [Tavily Research pricing and specs](https://empiriolabs.ai/models/tavily-research)
 - [Tavily Research API reference](https://docs.empiriolabs.ai/models/tavily-research)
 - [Try Tavily Research in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=tavily-research)
+
+[All EmpirioLabs AI examples](../../README.md)

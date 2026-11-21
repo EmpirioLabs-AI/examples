@@ -98,3 +98,5 @@ while True:
 - [Whisper Large v3 Turbo pricing and specs](https://empiriolabs.ai/models/whisper-large-v3-turbo)
 - [Whisper Large v3 Turbo API reference](https://docs.empiriolabs.ai/models/whisper-large-v3-turbo)
 - [Try Whisper Large v3 Turbo in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=whisper-large-v3-turbo)
+
+[All EmpirioLabs AI examples](../../README.md)

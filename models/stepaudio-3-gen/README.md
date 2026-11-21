@@ -98,3 +98,5 @@ while True:
 - [StepAudio 3 Gen pricing and specs](https://empiriolabs.ai/models/stepaudio-3-gen)
 - [StepAudio 3 Gen API reference](https://docs.empiriolabs.ai/models/stepaudio-3-gen)
 - [Try StepAudio 3 Gen in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stepaudio-3-gen)
+
+[All EmpirioLabs AI examples](../../README.md)

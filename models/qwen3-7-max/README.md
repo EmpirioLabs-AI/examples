@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.7 Max pricing and specs](https://empiriolabs.ai/models/qwen3-7-max)
 - [Qwen3.7 Max API reference](https://docs.empiriolabs.ai/models/qwen3-7-max)
 - [Try Qwen3.7 Max in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-7-max)
+
+[All EmpirioLabs AI examples](../../README.md)

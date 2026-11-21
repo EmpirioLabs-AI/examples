@@ -98,3 +98,5 @@ while True:
 - [StepAudio 3 ASR Max pricing and specs](https://empiriolabs.ai/models/stepaudio-3-asr-max)
 - [StepAudio 3 ASR Max API reference](https://docs.empiriolabs.ai/models/stepaudio-3-asr-max)
 - [Try StepAudio 3 ASR Max in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stepaudio-3-asr-max)
+
+[All EmpirioLabs AI examples](../../README.md)

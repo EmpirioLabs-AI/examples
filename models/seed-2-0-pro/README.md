@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Seed 2.0 Pro pricing and specs](https://empiriolabs.ai/models/seed-2-0-pro)
 - [Seed 2.0 Pro API reference](https://docs.empiriolabs.ai/models/seed-2-0-pro)
 - [Try Seed 2.0 Pro in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seed-2-0-pro)
+
+[All EmpirioLabs AI examples](../../README.md)

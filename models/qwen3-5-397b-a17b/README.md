@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.5 397B-A17B pricing and specs](https://empiriolabs.ai/models/qwen3-5-397b-a17b)
 - [Qwen3.5 397B-A17B API reference](https://docs.empiriolabs.ai/models/qwen3-5-397b-a17b)
 - [Try Qwen3.5 397B-A17B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-5-397b-a17b)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -98,3 +98,5 @@ while True:
 - [MiniMax Music 3 pricing and specs](https://empiriolabs.ai/models/minimax-music-3)
 - [MiniMax Music 3 API reference](https://docs.empiriolabs.ai/models/minimax-music-3)
 - [Try MiniMax Music 3 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=minimax-music-3)
+
+[All EmpirioLabs AI examples](../../README.md)

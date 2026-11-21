@@ -98,3 +98,5 @@ while True:
 - [Seedance 2.5 Flash pricing and specs](https://empiriolabs.ai/models/seedance-2-5-flash)
 - [Seedance 2.5 Flash API reference](https://docs.empiriolabs.ai/models/seedance-2-5-flash)
 - [Try Seedance 2.5 Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seedance-2-5-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

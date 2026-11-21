@@ -69,3 +69,5 @@ with open("speech.mp3", "wb") as f:
 - [StepAudio 3 TTS pricing and specs](https://empiriolabs.ai/models/stepaudio-3-tts)
 - [StepAudio 3 TTS API reference](https://docs.empiriolabs.ai/models/stepaudio-3-tts)
 - [Try StepAudio 3 TTS in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stepaudio-3-tts)
+
+[All EmpirioLabs AI examples](../../README.md)

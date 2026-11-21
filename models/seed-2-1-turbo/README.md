@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Seed 2.1 Turbo pricing and specs](https://empiriolabs.ai/models/seed-2-1-turbo)
 - [Seed 2.1 Turbo API reference](https://docs.empiriolabs.ai/models/seed-2-1-turbo)
 - [Try Seed 2.1 Turbo in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seed-2-1-turbo)
+
+[All EmpirioLabs AI examples](../../README.md)

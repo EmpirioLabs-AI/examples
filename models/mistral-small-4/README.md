@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Mistral Small 4 pricing and specs](https://empiriolabs.ai/models/mistral-small-4)
 - [Mistral Small 4 API reference](https://docs.empiriolabs.ai/models/mistral-small-4)
 - [Try Mistral Small 4 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=mistral-small-4)
+
+[All EmpirioLabs AI examples](../../README.md)

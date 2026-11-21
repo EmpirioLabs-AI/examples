@@ -98,3 +98,5 @@ while True:
 - [Hitem3D 2.0 pricing and specs](https://empiriolabs.ai/models/hitem3d-2-0)
 - [Hitem3D 2.0 API reference](https://docs.empiriolabs.ai/models/hitem3d-2-0)
 - [Try Hitem3D 2.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=hitem3d-2-0)
+
+[All EmpirioLabs AI examples](../../README.md)

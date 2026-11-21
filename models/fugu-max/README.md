@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Fugu Max pricing and specs](https://empiriolabs.ai/models/fugu-max)
 - [Fugu Max API reference](https://docs.empiriolabs.ai/models/fugu-max)
 - [Try Fugu Max in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=fugu-max)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [DeepReasoning pricing and specs](https://empiriolabs.ai/models/deepreasoning)
 - [DeepReasoning API reference](https://docs.empiriolabs.ai/models/deepreasoning)
 - [Try DeepReasoning in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=deepreasoning)
+
+[All EmpirioLabs AI examples](../../README.md)

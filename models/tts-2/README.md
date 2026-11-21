@@ -69,3 +69,5 @@ with open("speech.mp3", "wb") as f:
 - [TTS 2 pricing and specs](https://empiriolabs.ai/models/tts-2)
 - [TTS 2 API reference](https://docs.empiriolabs.ai/models/tts-2)
 - [Try TTS 2 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=tts-2)
+
+[All EmpirioLabs AI examples](../../README.md)

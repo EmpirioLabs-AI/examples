@@ -66,3 +66,5 @@ asyncio.run(main())
 
 - [Qwen Audio 3.0 Realtime Flash pricing and specs](https://empiriolabs.ai/models/qwen-audio-3-0-realtime-flash)
 - [Qwen Audio 3.0 Realtime Flash API reference](https://docs.empiriolabs.ai/models/qwen-audio-3-0-realtime-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

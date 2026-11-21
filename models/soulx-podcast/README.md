@@ -69,3 +69,5 @@ with open("speech.mp3", "wb") as f:
 - [SoulX Podcast pricing and specs](https://empiriolabs.ai/models/soulx-podcast)
 - [SoulX Podcast API reference](https://docs.empiriolabs.ai/models/soulx-podcast)
 - [Try SoulX Podcast in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=soulx-podcast)
+
+[All EmpirioLabs AI examples](../../README.md)

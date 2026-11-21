@@ -71,3 +71,5 @@ print(embedding.data[0].embedding[:8])
 - [Skylark Embedding Vision pricing and specs](https://empiriolabs.ai/models/skylark-embedding-vision)
 - [Skylark Embedding Vision API reference](https://docs.empiriolabs.ai/models/skylark-embedding-vision)
 - [Try Skylark Embedding Vision in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=skylark-embedding-vision)
+
+[All EmpirioLabs AI examples](../../README.md)

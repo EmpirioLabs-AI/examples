@@ -98,3 +98,5 @@ while True:
 - [Pixverse Avatar pricing and specs](https://empiriolabs.ai/models/pixverse-avatar)
 - [Pixverse Avatar API reference](https://docs.empiriolabs.ai/models/pixverse-avatar)
 - [Try Pixverse Avatar in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=pixverse-avatar)
+
+[All EmpirioLabs AI examples](../../README.md)

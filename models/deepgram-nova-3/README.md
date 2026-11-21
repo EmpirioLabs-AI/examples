@@ -98,3 +98,5 @@ while True:
 - [Deepgram Nova-3 pricing and specs](https://empiriolabs.ai/models/deepgram-nova-3)
 - [Deepgram Nova-3 API reference](https://docs.empiriolabs.ai/models/deepgram-nova-3)
 - [Try Deepgram Nova-3 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=deepgram-nova-3)
+
+[All EmpirioLabs AI examples](../../README.md)

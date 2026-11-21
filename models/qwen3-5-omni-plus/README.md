@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.5 Omni Plus pricing and specs](https://empiriolabs.ai/models/qwen3-5-omni-plus)
 - [Qwen3.5 Omni Plus API reference](https://docs.empiriolabs.ai/models/qwen3-5-omni-plus)
 - [Try Qwen3.5 Omni Plus in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-5-omni-plus)
+
+[All EmpirioLabs AI examples](../../README.md)

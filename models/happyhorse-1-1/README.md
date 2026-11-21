@@ -98,3 +98,5 @@ while True:
 - [HappyHorse 1.1 pricing and specs](https://empiriolabs.ai/models/happyhorse-1-1)
 - [HappyHorse 1.1 API reference](https://docs.empiriolabs.ai/models/happyhorse-1-1)
 - [Try HappyHorse 1.1 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=happyhorse-1-1)
+
+[All EmpirioLabs AI examples](../../README.md)

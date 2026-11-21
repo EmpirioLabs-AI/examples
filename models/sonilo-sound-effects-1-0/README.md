@@ -98,3 +98,5 @@ while True:
 - [Sonilo Sound Effects 1.0 pricing and specs](https://empiriolabs.ai/models/sonilo-sound-effects-1-0)
 - [Sonilo Sound Effects 1.0 API reference](https://docs.empiriolabs.ai/models/sonilo-sound-effects-1-0)
 - [Try Sonilo Sound Effects 1.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=sonilo-sound-effects-1-0)
+
+[All EmpirioLabs AI examples](../../README.md)

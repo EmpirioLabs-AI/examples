@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Exa Answer pricing and specs](https://empiriolabs.ai/models/exa-answer)
 - [Exa Answer API reference](https://docs.empiriolabs.ai/models/exa-answer)
 - [Try Exa Answer in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=exa-answer)
+
+[All EmpirioLabs AI examples](../../README.md)

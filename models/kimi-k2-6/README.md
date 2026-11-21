@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Kimi K2.6 pricing and specs](https://empiriolabs.ai/models/kimi-k2-6)
 - [Kimi K2.6 API reference](https://docs.empiriolabs.ai/models/kimi-k2-6)
 - [Try Kimi K2.6 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=kimi-k2-6)
+
+[All EmpirioLabs AI examples](../../README.md)

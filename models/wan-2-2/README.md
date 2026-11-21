@@ -98,3 +98,5 @@ while True:
 - [Wan 2.2 pricing and specs](https://empiriolabs.ai/models/wan-2-2)
 - [Wan 2.2 API reference](https://docs.empiriolabs.ai/models/wan-2-2)
 - [Try Wan 2.2 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=wan-2-2)
+
+[All EmpirioLabs AI examples](../../README.md)

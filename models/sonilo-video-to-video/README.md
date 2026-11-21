@@ -98,3 +98,5 @@ while True:
 - [Sonilo Video to Video pricing and specs](https://empiriolabs.ai/models/sonilo-video-to-video)
 - [Sonilo Video to Video API reference](https://docs.empiriolabs.ai/models/sonilo-video-to-video)
 - [Try Sonilo Video to Video in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=sonilo-video-to-video)
+
+[All EmpirioLabs AI examples](../../README.md)

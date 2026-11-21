@@ -67,3 +67,5 @@ asyncio.run(main())
 
 - [Qwen Audio 3.1 ASR Message pricing and specs](https://empiriolabs.ai/models/qwen-audio-3-1-asr-message)
 - [Qwen Audio 3.1 ASR Message API reference](https://docs.empiriolabs.ai/models/qwen-audio-3-1-asr-message)
+
+[All EmpirioLabs AI examples](../../README.md)

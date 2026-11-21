@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Nova Pro 1.0 pricing and specs](https://empiriolabs.ai/models/nova-pro-1-0)
 - [Nova Pro 1.0 API reference](https://docs.empiriolabs.ai/models/nova-pro-1-0)
 - [Try Nova Pro 1.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=nova-pro-1-0)
+
+[All EmpirioLabs AI examples](../../README.md)

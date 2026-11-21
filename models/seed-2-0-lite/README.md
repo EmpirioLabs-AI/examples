@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Seed 2.0 Lite pricing and specs](https://empiriolabs.ai/models/seed-2-0-lite)
 - [Seed 2.0 Lite API reference](https://docs.empiriolabs.ai/models/seed-2-0-lite)
 - [Try Seed 2.0 Lite in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seed-2-0-lite)
+
+[All EmpirioLabs AI examples](../../README.md)

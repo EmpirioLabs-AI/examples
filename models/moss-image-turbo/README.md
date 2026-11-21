@@ -98,3 +98,5 @@ while True:
 - [MOSS-Image Turbo pricing and specs](https://empiriolabs.ai/models/moss-image-turbo)
 - [MOSS-Image Turbo API reference](https://docs.empiriolabs.ai/models/moss-image-turbo)
 - [Try MOSS-Image Turbo in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=moss-image-turbo)
+
+[All EmpirioLabs AI examples](../../README.md)

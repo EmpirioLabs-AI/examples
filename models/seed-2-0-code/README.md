@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Seed 2.0 Code pricing and specs](https://empiriolabs.ai/models/seed-2-0-code)
 - [Seed 2.0 Code API reference](https://docs.empiriolabs.ai/models/seed-2-0-code)
 - [Try Seed 2.0 Code in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seed-2-0-code)
+
+[All EmpirioLabs AI examples](../../README.md)

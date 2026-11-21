@@ -98,3 +98,5 @@ while True:
 - [Pixverse Lip Sync pricing and specs](https://empiriolabs.ai/models/pixverse-lipsync)
 - [Pixverse Lip Sync API reference](https://docs.empiriolabs.ai/models/pixverse-lipsync)
 - [Try Pixverse Lip Sync in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=pixverse-lipsync)
+
+[All EmpirioLabs AI examples](../../README.md)

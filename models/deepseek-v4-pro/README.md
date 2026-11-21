@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [DeepSeek V4 Pro pricing and specs](https://empiriolabs.ai/models/deepseek-v4-pro)
 - [DeepSeek V4 Pro API reference](https://docs.empiriolabs.ai/models/deepseek-v4-pro)
 - [Try DeepSeek V4 Pro in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=deepseek-v4-pro)
+
+[All EmpirioLabs AI examples](../../README.md)

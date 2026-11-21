@@ -98,3 +98,5 @@ while True:
 - [Pixverse Edit pricing and specs](https://empiriolabs.ai/models/pixverse-edit)
 - [Pixverse Edit API reference](https://docs.empiriolabs.ai/models/pixverse-edit)
 - [Try Pixverse Edit in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=pixverse-edit)
+
+[All EmpirioLabs AI examples](../../README.md)

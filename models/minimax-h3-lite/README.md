@@ -98,3 +98,5 @@ while True:
 - [MiniMax H3 Lite pricing and specs](https://empiriolabs.ai/models/minimax-h3-lite)
 - [MiniMax H3 Lite API reference](https://docs.empiriolabs.ai/models/minimax-h3-lite)
 - [Try MiniMax H3 Lite in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=minimax-h3-lite)
+
+[All EmpirioLabs AI examples](../../README.md)

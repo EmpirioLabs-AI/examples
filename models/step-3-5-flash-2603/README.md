@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Step 3.5 Flash 2603 pricing and specs](https://empiriolabs.ai/models/step-3-5-flash-2603)
 - [Step 3.5 Flash 2603 API reference](https://docs.empiriolabs.ai/models/step-3-5-flash-2603)
 - [Try Step 3.5 Flash 2603 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=step-3-5-flash-2603)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -72,3 +72,5 @@ print(response.json())
 - [Qwen3 Rerank pricing and specs](https://empiriolabs.ai/models/qwen3-rerank)
 - [Qwen3 Rerank API reference](https://docs.empiriolabs.ai/models/qwen3-rerank)
 - [Try Qwen3 Rerank in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-rerank)
+
+[All EmpirioLabs AI examples](../../README.md)

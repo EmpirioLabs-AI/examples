@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [GLM 4.6V FlashX pricing and specs](https://empiriolabs.ai/models/glm-4-6v-flashx)
 - [GLM 4.6V FlashX API reference](https://docs.empiriolabs.ai/models/glm-4-6v-flashx)
 - [Try GLM 4.6V FlashX in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=glm-4-6v-flashx)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -98,3 +98,5 @@ while True:
 - [Pixverse v6 pricing and specs](https://empiriolabs.ai/models/pixverse-v6)
 - [Pixverse v6 API reference](https://docs.empiriolabs.ai/models/pixverse-v6)
 - [Try Pixverse v6 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=pixverse-v6)
+
+[All EmpirioLabs AI examples](../../README.md)

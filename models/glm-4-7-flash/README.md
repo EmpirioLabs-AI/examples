@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [GLM 4.7 Flash pricing and specs](https://empiriolabs.ai/models/glm-4-7-flash)
 - [GLM 4.7 Flash API reference](https://docs.empiriolabs.ai/models/glm-4-7-flash)
 - [Try GLM 4.7 Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=glm-4-7-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

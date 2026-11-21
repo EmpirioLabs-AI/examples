@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Fugu Ultra v1.0 pricing and specs](https://empiriolabs.ai/models/fugu-ultra-v1-0)
 - [Fugu Ultra v1.0 API reference](https://docs.empiriolabs.ai/models/fugu-ultra-v1-0)
 - [Try Fugu Ultra v1.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=fugu-ultra-v1-0)
+
+[All EmpirioLabs AI examples](../../README.md)

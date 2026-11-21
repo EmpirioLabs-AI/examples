@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Sonilo Video Analysis pricing and specs](https://empiriolabs.ai/models/sonilo-video-analysis)
 - [Sonilo Video Analysis API reference](https://docs.empiriolabs.ai/models/sonilo-video-analysis)
 - [Try Sonilo Video Analysis in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=sonilo-video-analysis)
+
+[All EmpirioLabs AI examples](../../README.md)

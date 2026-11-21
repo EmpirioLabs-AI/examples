@@ -70,3 +70,5 @@ print(response.json())
 - [Exa Search pricing and specs](https://empiriolabs.ai/models/exa-search)
 - [Exa Search API reference](https://docs.empiriolabs.ai/models/exa-search)
 - [Try Exa Search in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=exa-search)
+
+[All EmpirioLabs AI examples](../../README.md)

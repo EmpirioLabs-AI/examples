@@ -98,3 +98,5 @@ while True:
 - [Wan2.7 Image pricing and specs](https://empiriolabs.ai/models/wan2-7-image)
 - [Wan2.7 Image API reference](https://docs.empiriolabs.ai/models/wan2-7-image)
 - [Try Wan2.7 Image in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=wan2-7-image)
+
+[All EmpirioLabs AI examples](../../README.md)

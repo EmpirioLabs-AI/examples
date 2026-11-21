@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.8 Omni Flash pricing and specs](https://empiriolabs.ai/models/qwen3-8-omni-flash)
 - [Qwen3.8 Omni Flash API reference](https://docs.empiriolabs.ai/models/qwen3-8-omni-flash)
 - [Try Qwen3.8 Omni Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-8-omni-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

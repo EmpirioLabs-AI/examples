@@ -68,3 +68,5 @@ with open("speech.mp3", "wb") as f:
 
 - [Qwen Audio 3.1 TTS Plus pricing and specs](https://empiriolabs.ai/models/qwen-audio-3-1-tts-plus)
 - [Qwen Audio 3.1 TTS Plus API reference](https://docs.empiriolabs.ai/models/qwen-audio-3-1-tts-plus)
+
+[All EmpirioLabs AI examples](../../README.md)

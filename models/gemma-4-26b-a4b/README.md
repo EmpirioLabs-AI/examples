@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Gemma 4 26B-A4B pricing and specs](https://empiriolabs.ai/models/gemma-4-26b-a4b)
 - [Gemma 4 26B-A4B API reference](https://docs.empiriolabs.ai/models/gemma-4-26b-a4b)
 - [Try Gemma 4 26B-A4B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=gemma-4-26b-a4b)
+
+[All EmpirioLabs AI examples](../../README.md)

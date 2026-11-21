@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Perplexity Deep Research pricing and specs](https://empiriolabs.ai/models/perplexity-deep-research)
 - [Perplexity Deep Research API reference](https://docs.empiriolabs.ai/models/perplexity-deep-research)
 - [Try Perplexity Deep Research in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=perplexity-deep-research)
+
+[All EmpirioLabs AI examples](../../README.md)

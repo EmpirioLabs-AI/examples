@@ -98,3 +98,5 @@ while True:
 - [FLUX.2 Klein 4B pricing and specs](https://empiriolabs.ai/models/flux-2-klein-4b)
 - [FLUX.2 Klein 4B API reference](https://docs.empiriolabs.ai/models/flux-2-klein-4b)
 - [Try FLUX.2 Klein 4B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=flux-2-klein-4b)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Gemma 3 27B pricing and specs](https://empiriolabs.ai/models/gemma-3-27b)
 - [Gemma 3 27B API reference](https://docs.empiriolabs.ai/models/gemma-3-27b)
 - [Try Gemma 3 27B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=gemma-3-27b)
+
+[All EmpirioLabs AI examples](../../README.md)

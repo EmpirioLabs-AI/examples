@@ -98,3 +98,5 @@ while True:
 - [ACE-Step 1.5 XL pricing and specs](https://empiriolabs.ai/models/ace-step-1-5-xl)
 - [ACE-Step 1.5 XL API reference](https://docs.empiriolabs.ai/models/ace-step-1-5-xl)
 - [Try ACE-Step 1.5 XL in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=ace-step-1-5-xl)
+
+[All EmpirioLabs AI examples](../../README.md)

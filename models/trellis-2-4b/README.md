@@ -98,3 +98,5 @@ while True:
 - [TRELLIS.2 4B pricing and specs](https://empiriolabs.ai/models/trellis-2-4b)
 - [TRELLIS.2 4B API reference](https://docs.empiriolabs.ai/models/trellis-2-4b)
 - [Try TRELLIS.2 4B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=trellis-2-4b)
+
+[All EmpirioLabs AI examples](../../README.md)

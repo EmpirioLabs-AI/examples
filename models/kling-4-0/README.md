@@ -98,3 +98,5 @@ while True:
 - [Kling 4.0 pricing and specs](https://empiriolabs.ai/models/kling-4-0)
 - [Kling 4.0 API reference](https://docs.empiriolabs.ai/models/kling-4-0)
 - [Try Kling 4.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=kling-4-0)
+
+[All EmpirioLabs AI examples](../../README.md)

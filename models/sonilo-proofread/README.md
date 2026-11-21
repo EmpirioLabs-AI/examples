@@ -98,3 +98,5 @@ while True:
 - [Sonilo Proofread pricing and specs](https://empiriolabs.ai/models/sonilo-proofread)
 - [Sonilo Proofread API reference](https://docs.empiriolabs.ai/models/sonilo-proofread)
 - [Try Sonilo Proofread in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=sonilo-proofread)
+
+[All EmpirioLabs AI examples](../../README.md)

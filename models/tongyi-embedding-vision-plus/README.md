@@ -71,3 +71,5 @@ print(embedding.data[0].embedding[:8])
 - [Tongyi Embedding Vision Plus pricing and specs](https://empiriolabs.ai/models/tongyi-embedding-vision-plus)
 - [Tongyi Embedding Vision Plus API reference](https://docs.empiriolabs.ai/models/tongyi-embedding-vision-plus)
 - [Try Tongyi Embedding Vision Plus in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=tongyi-embedding-vision-plus)
+
+[All EmpirioLabs AI examples](../../README.md)

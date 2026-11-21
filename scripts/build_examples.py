@@ -30,6 +30,9 @@ import urllib.request
 FEED_URL = "https://catalog.empiriolabs.ai/examples.json"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KEY_URL = "https://platform.empiriolabs.ai/dashboard/api-keys"
+# The official logo files (github.com/EmpirioLabs-AI/assets), as the organization profile shows them.
+LOGO_DARK = "https://raw.githubusercontent.com/EmpirioLabs-AI/assets/main/logo-dark.png"
+LOGO_LIGHT = "https://raw.githubusercontent.com/EmpirioLabs-AI/assets/main/logo-white.png"
 SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9.-]{0,79}$")
 PATH_RE = re.compile(r"^/v1/[A-Za-z0-9/_{}.:-]+$")
 METHODS = {"GET", "POST", "WEBSOCKET"}
@@ -156,6 +159,11 @@ def plain(value):
     return str(value).replace("<", "&lt;").replace(">", "&gt;").strip()
 
 
+def anchor(heading):
+    """The id GitHub gives a heading: lowercase, punctuation dropped, spaces to hyphens."""
+    return re.sub(r"[^a-z0-9 -]", "", heading.lower()).strip().replace(" ", "-")
+
+
 def file_names(blocks):
     names = {}
     has_python = any(b["kind"] == "python" for b in blocks)
@@ -267,6 +275,7 @@ def render_model_readme(model, names, files):
               "- [" + cell(model["name"]) + " API reference](" + model["docs"] + ")"]
     if model["playground"]:
         lines.append("- [Try " + cell(model["name"]) + " in the Playground](" + model["playground"] + ")")
+    lines += ["", "[All EmpirioLabs AI examples](../../README.md)"]
     return "\n".join(lines) + "\n"
 
 
@@ -274,12 +283,35 @@ def render_index(models):
     by_category = {}
     for model in models:
         by_category.setdefault(model["category"], []).append(model)
+    categories = sorted(by_category, key=lambda c: c.lower())
+    headings = [cell(c) + " (" + str(len(by_category[c])) + ")" for c in categories]
     lines = [
+        '<div align="center">',
+        "",
+        '<a href="https://empiriolabs.ai">',
+        "  <picture>",
+        '    <source media="(prefers-color-scheme: dark)" srcset="' + LOGO_LIGHT + '" />',
+        '    <img src="' + LOGO_DARK + '" alt="EmpirioLabs AI" width="280" />',
+        "  </picture>",
+        "</a>",
+        "",
         "# EmpirioLabs AI API examples",
         "",
-        "Runnable examples for every model on [EmpirioLabs AI](https://empiriolabs.ai): one folder per model, with cURL "
-        "and Python. Each folder holds the same code as the model's page on empiriolabs.ai. The repository is generated "
-        "from the live model catalog and kept in sync automatically, so new models are added without manual updates.",
+        "Runnable cURL and Python for every model in the EmpirioLabs AI catalog.",
+        "",
+        "<p>",
+        '  <a href="https://empiriolabs.ai/models"><img alt="' + str(len(models)) + ' models" src="https://img.shields.io/badge/Models-'
+        + str(len(models)) + '-1f6feb?style=flat-square"></a>',
+        '  <a href="https://docs.empiriolabs.ai/welcome"><img alt="Documentation" src="https://img.shields.io/badge/Docs-docs.empiriolabs.ai-0a66c2?style=flat-square"></a>',
+        '  <a href="' + KEY_URL + '"><img alt="Get an API key" src="https://img.shields.io/badge/API%20key-Get%20one-0b8a5a?style=flat-square"></a>',
+        '  <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/License-MIT--0-555555?style=flat-square"></a>',
+        "</p>",
+        "",
+        "</div>",
+        "",
+        "One folder per model on [EmpirioLabs AI](https://empiriolabs.ai), with the same code as the model's page on "
+        "empiriolabs.ai. The repository is generated from the live model catalog and kept in sync automatically, so new "
+        "models are added without manual updates.",
         "",
         "## Get started",
         "",
@@ -291,13 +323,14 @@ def render_index(models):
         "",
         "## Models",
         "",
-        str(len(models)) + " models in " + str(len(by_category)) + " categories.",
+        str(len(models)) + " models in " + str(len(by_category)) + " categories: "
+        + ", ".join("[" + cell(c) + "](#" + anchor(h) + ")" for c, h in zip(categories, headings)) + ".",
         "",
     ]
-    for category in sorted(by_category, key=lambda c: c.lower()):
+    for category, heading in zip(categories, headings):
         rows = sorted(by_category[category], key=lambda m: (m["name"].lower(), m["slug"]))
         lines += [
-            "### " + cell(category) + " (" + str(len(rows)) + ")",
+            "### " + heading,
             "",
             "| Model | Provider | Endpoint | Examples |",
             "| --- | --- | --- | --- |",

@@ -1,6 +1,26 @@
+<div align="center">
+
+<a href="https://empiriolabs.ai">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmpirioLabs-AI/assets/main/logo-white.png" />
+    <img src="https://raw.githubusercontent.com/EmpirioLabs-AI/assets/main/logo-dark.png" alt="EmpirioLabs AI" width="280" />
+  </picture>
+</a>
+
 # EmpirioLabs AI API examples
 
-Runnable examples for every model on [EmpirioLabs AI](https://empiriolabs.ai): one folder per model, with cURL and Python. Each folder holds the same code as the model's page on empiriolabs.ai. The repository is generated from the live model catalog and kept in sync automatically, so new models are added without manual updates.
+Runnable cURL and Python for every model in the EmpirioLabs AI catalog.
+
+<p>
+  <a href="https://empiriolabs.ai/models"><img alt="206 models" src="https://img.shields.io/badge/Models-206-1f6feb?style=flat-square"></a>
+  <a href="https://docs.empiriolabs.ai/welcome"><img alt="Documentation" src="https://img.shields.io/badge/Docs-docs.empiriolabs.ai-0a66c2?style=flat-square"></a>
+  <a href="https://platform.empiriolabs.ai/dashboard/api-keys"><img alt="Get an API key" src="https://img.shields.io/badge/API%20key-Get%20one-0b8a5a?style=flat-square"></a>
+  <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/License-MIT--0-555555?style=flat-square"></a>
+</p>
+
+</div>
+
+One folder per model on [EmpirioLabs AI](https://empiriolabs.ai), with the same code as the model's page on empiriolabs.ai. The repository is generated from the live model catalog and kept in sync automatically, so new models are added without manual updates.
 
 ## Get started
 
@@ -12,7 +32,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 
 ## Models
 
-206 models in 12 categories.
+206 models in 12 categories: [3D Generation](#3d-generation-3), [Audio Generation](#audio-generation-39), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-74), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
 
 ### 3D Generation (3)
 

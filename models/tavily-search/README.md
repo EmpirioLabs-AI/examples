@@ -70,3 +70,5 @@ print(response.json())
 - [Tavily Search pricing and specs](https://empiriolabs.ai/models/tavily-search)
 - [Tavily Search API reference](https://docs.empiriolabs.ai/models/tavily-search)
 - [Try Tavily Search in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=tavily-search)
+
+[All EmpirioLabs AI examples](../../README.md)

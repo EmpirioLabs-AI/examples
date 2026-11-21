@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [MiniMax M3 pricing and specs](https://empiriolabs.ai/models/minimax-m3)
 - [MiniMax M3 API reference](https://docs.empiriolabs.ai/models/minimax-m3)
 - [Try MiniMax M3 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=minimax-m3)
+
+[All EmpirioLabs AI examples](../../README.md)

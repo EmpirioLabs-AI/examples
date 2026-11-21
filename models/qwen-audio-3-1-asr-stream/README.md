@@ -67,3 +67,5 @@ asyncio.run(main())
 
 - [Qwen Audio 3.1 ASR Stream pricing and specs](https://empiriolabs.ai/models/qwen-audio-3-1-asr-stream)
 - [Qwen Audio 3.1 ASR Stream API reference](https://docs.empiriolabs.ai/models/qwen-audio-3-1-asr-stream)
+
+[All EmpirioLabs AI examples](../../README.md)

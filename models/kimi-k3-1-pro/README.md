@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Kimi K3.1 Pro pricing and specs](https://empiriolabs.ai/models/kimi-k3-1-pro)
 - [Kimi K3.1 Pro API reference](https://docs.empiriolabs.ai/models/kimi-k3-1-pro)
 - [Try Kimi K3.1 Pro in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=kimi-k3-1-pro)
+
+[All EmpirioLabs AI examples](../../README.md)

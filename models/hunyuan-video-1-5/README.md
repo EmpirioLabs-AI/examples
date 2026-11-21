@@ -98,3 +98,5 @@ while True:
 - [Hunyuan Video 1.5 pricing and specs](https://empiriolabs.ai/models/hunyuan-video-1-5)
 - [Hunyuan Video 1.5 API reference](https://docs.empiriolabs.ai/models/hunyuan-video-1-5)
 - [Try Hunyuan Video 1.5 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=hunyuan-video-1-5)
+
+[All EmpirioLabs AI examples](../../README.md)

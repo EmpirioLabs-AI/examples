@@ -66,3 +66,5 @@ asyncio.run(main())
 
 - [StepAudio 3 Realtime pricing and specs](https://empiriolabs.ai/models/stepaudio-3-realtime)
 - [StepAudio 3 Realtime API reference](https://docs.empiriolabs.ai/models/stepaudio-3-realtime)
+
+[All EmpirioLabs AI examples](../../README.md)

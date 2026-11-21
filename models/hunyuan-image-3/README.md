@@ -98,3 +98,5 @@ while True:
 - [Hunyuan Image 3 pricing and specs](https://empiriolabs.ai/models/hunyuan-image-3)
 - [Hunyuan Image 3 API reference](https://docs.empiriolabs.ai/models/hunyuan-image-3)
 - [Try Hunyuan Image 3 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=hunyuan-image-3)
+
+[All EmpirioLabs AI examples](../../README.md)

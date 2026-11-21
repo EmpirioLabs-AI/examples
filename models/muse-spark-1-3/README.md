@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Muse Spark 1.3 pricing and specs](https://empiriolabs.ai/models/muse-spark-1-3)
 - [Muse Spark 1.3 API reference](https://docs.empiriolabs.ai/models/muse-spark-1-3)
 - [Try Muse Spark 1.3 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=muse-spark-1-3)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Perplexity Sonar Reasoning Pro pricing and specs](https://empiriolabs.ai/models/perplexity-sonar-reasoning-pro)
 - [Perplexity Sonar Reasoning Pro API reference](https://docs.empiriolabs.ai/models/perplexity-sonar-reasoning-pro)
 - [Try Perplexity Sonar Reasoning Pro in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=perplexity-sonar-reasoning-pro)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -98,3 +98,5 @@ while True:
 - [Seedream 5.5 pricing and specs](https://empiriolabs.ai/models/seedream-5-5)
 - [Seedream 5.5 API reference](https://docs.empiriolabs.ai/models/seedream-5-5)
 - [Try Seedream 5.5 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seedream-5-5)
+
+[All EmpirioLabs AI examples](../../README.md)

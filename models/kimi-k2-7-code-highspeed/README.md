@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Kimi K2.7 Code Highspeed pricing and specs](https://empiriolabs.ai/models/kimi-k2-7-code-highspeed)
 - [Kimi K2.7 Code Highspeed API reference](https://docs.empiriolabs.ai/models/kimi-k2-7-code-highspeed)
 - [Try Kimi K2.7 Code Highspeed in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=kimi-k2-7-code-highspeed)
+
+[All EmpirioLabs AI examples](../../README.md)

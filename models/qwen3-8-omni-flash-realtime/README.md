@@ -66,3 +66,5 @@ asyncio.run(main())
 
 - [Qwen3.8 Omni Flash Realtime pricing and specs](https://empiriolabs.ai/models/qwen3-8-omni-flash-realtime)
 - [Qwen3.8 Omni Flash Realtime API reference](https://docs.empiriolabs.ai/models/qwen3-8-omni-flash-realtime)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [MiMo V2.6 Flash pricing and specs](https://empiriolabs.ai/models/mimo-v2-6-flash)
 - [MiMo V2.6 Flash API reference](https://docs.empiriolabs.ai/models/mimo-v2-6-flash)
 - [Try MiMo V2.6 Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=mimo-v2-6-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

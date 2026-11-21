@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Perplexity Pro Search pricing and specs](https://empiriolabs.ai/models/perplexity-pro-search)
 - [Perplexity Pro Search API reference](https://docs.empiriolabs.ai/models/perplexity-pro-search)
 - [Try Perplexity Pro Search in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=perplexity-pro-search)
+
+[All EmpirioLabs AI examples](../../README.md)

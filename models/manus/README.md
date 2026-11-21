@@ -43,3 +43,5 @@ curl https://api.empiriolabs.ai/v1/agents/run \
 - [Manus pricing and specs](https://empiriolabs.ai/models/manus)
 - [Manus API reference](https://docs.empiriolabs.ai/models/manus)
 - [Try Manus in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=manus)
+
+[All EmpirioLabs AI examples](../../README.md)

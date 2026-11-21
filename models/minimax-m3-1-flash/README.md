@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [MiniMax M3.1 Flash pricing and specs](https://empiriolabs.ai/models/minimax-m3-1-flash)
 - [MiniMax M3.1 Flash API reference](https://docs.empiriolabs.ai/models/minimax-m3-1-flash)
 - [Try MiniMax M3.1 Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=minimax-m3-1-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

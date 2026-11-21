@@ -98,3 +98,5 @@ while True:
 - [Hyper3D Gen2 pricing and specs](https://empiriolabs.ai/models/hyper3d-gen2)
 - [Hyper3D Gen2 API reference](https://docs.empiriolabs.ai/models/hyper3d-gen2)
 - [Try Hyper3D Gen2 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=hyper3d-gen2)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -69,3 +69,5 @@ with open("speech.mp3", "wb") as f:
 - [TTS 1.5 Max pricing and specs](https://empiriolabs.ai/models/tts-1-5-max)
 - [TTS 1.5 Max API reference](https://docs.empiriolabs.ai/models/tts-1-5-max)
 - [Try TTS 1.5 Max in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=tts-1-5-max)
+
+[All EmpirioLabs AI examples](../../README.md)

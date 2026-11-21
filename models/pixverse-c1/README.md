@@ -98,3 +98,5 @@ while True:
 - [Pixverse C1 pricing and specs](https://empiriolabs.ai/models/pixverse-c1)
 - [Pixverse C1 API reference](https://docs.empiriolabs.ai/models/pixverse-c1)
 - [Try Pixverse C1 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=pixverse-c1)
+
+[All EmpirioLabs AI examples](../../README.md)

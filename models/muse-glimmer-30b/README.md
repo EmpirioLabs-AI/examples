@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Muse Glimmer 30B pricing and specs](https://empiriolabs.ai/models/muse-glimmer-30b)
 - [Muse Glimmer 30B API reference](https://docs.empiriolabs.ai/models/muse-glimmer-30b)
 - [Try Muse Glimmer 30B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=muse-glimmer-30b)
+
+[All EmpirioLabs AI examples](../../README.md)

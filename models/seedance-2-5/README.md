@@ -98,3 +98,5 @@ while True:
 - [Seedance 2.5 pricing and specs](https://empiriolabs.ai/models/seedance-2-5)
 - [Seedance 2.5 API reference](https://docs.empiriolabs.ai/models/seedance-2-5)
 - [Try Seedance 2.5 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seedance-2-5)
+
+[All EmpirioLabs AI examples](../../README.md)

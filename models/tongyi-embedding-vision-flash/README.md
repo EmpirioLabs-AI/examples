@@ -71,3 +71,5 @@ print(embedding.data[0].embedding[:8])
 - [Tongyi Embedding Vision Flash pricing and specs](https://empiriolabs.ai/models/tongyi-embedding-vision-flash)
 - [Tongyi Embedding Vision Flash API reference](https://docs.empiriolabs.ai/models/tongyi-embedding-vision-flash)
 - [Try Tongyi Embedding Vision Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=tongyi-embedding-vision-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

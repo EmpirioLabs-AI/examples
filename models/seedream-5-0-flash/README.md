@@ -98,3 +98,5 @@ while True:
 - [Seedream 5.0 Flash pricing and specs](https://empiriolabs.ai/models/seedream-5-0-flash)
 - [Seedream 5.0 Flash API reference](https://docs.empiriolabs.ai/models/seedream-5-0-flash)
 - [Try Seedream 5.0 Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seedream-5-0-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

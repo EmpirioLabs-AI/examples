@@ -67,3 +67,5 @@ asyncio.run(main())
 
 - [Deepgram Nova-3 Stream pricing and specs](https://empiriolabs.ai/models/deepgram-nova-3-stream)
 - [Deepgram Nova-3 Stream API reference](https://docs.empiriolabs.ai/models/deepgram-nova-3-stream)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.5 122B-A10B pricing and specs](https://empiriolabs.ai/models/qwen3-5-122b-a10b)
 - [Qwen3.5 122B-A10B API reference](https://docs.empiriolabs.ai/models/qwen3-5-122b-a10b)
 - [Try Qwen3.5 122B-A10B in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-5-122b-a10b)
+
+[All EmpirioLabs AI examples](../../README.md)

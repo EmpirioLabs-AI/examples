@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Step 5 Preview pricing and specs](https://empiriolabs.ai/models/step-5-preview)
 - [Step 5 Preview API reference](https://docs.empiriolabs.ai/models/step-5-preview)
 - [Try Step 5 Preview in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=step-5-preview)
+
+[All EmpirioLabs AI examples](../../README.md)

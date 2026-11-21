@@ -98,3 +98,5 @@ while True:
 - [Sonilo Audio Ducking pricing and specs](https://empiriolabs.ai/models/sonilo-audio-ducking)
 - [Sonilo Audio Ducking API reference](https://docs.empiriolabs.ai/models/sonilo-audio-ducking)
 - [Try Sonilo Audio Ducking in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=sonilo-audio-ducking)
+
+[All EmpirioLabs AI examples](../../README.md)

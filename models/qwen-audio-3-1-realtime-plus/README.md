@@ -66,3 +66,5 @@ asyncio.run(main())
 
 - [Qwen Audio 3.1 Realtime Plus pricing and specs](https://empiriolabs.ai/models/qwen-audio-3-1-realtime-plus)
 - [Qwen Audio 3.1 Realtime Plus API reference](https://docs.empiriolabs.ai/models/qwen-audio-3-1-realtime-plus)
+
+[All EmpirioLabs AI examples](../../README.md)

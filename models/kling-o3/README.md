@@ -98,3 +98,5 @@ while True:
 - [Kling O3 pricing and specs](https://empiriolabs.ai/models/kling-o3)
 - [Kling O3 API reference](https://docs.empiriolabs.ai/models/kling-o3)
 - [Try Kling O3 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=kling-o3)
+
+[All EmpirioLabs AI examples](../../README.md)

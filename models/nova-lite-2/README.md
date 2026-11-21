@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Nova Lite 2 pricing and specs](https://empiriolabs.ai/models/nova-lite-2)
 - [Nova Lite 2 API reference](https://docs.empiriolabs.ai/models/nova-lite-2)
 - [Try Nova Lite 2 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=nova-lite-2)
+
+[All EmpirioLabs AI examples](../../README.md)

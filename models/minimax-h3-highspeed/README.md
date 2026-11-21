@@ -98,3 +98,5 @@ while True:
 - [MiniMax H3 Highspeed pricing and specs](https://empiriolabs.ai/models/minimax-h3-highspeed)
 - [MiniMax H3 Highspeed API reference](https://docs.empiriolabs.ai/models/minimax-h3-highspeed)
 - [Try MiniMax H3 Highspeed in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=minimax-h3-highspeed)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [StepAudio 2.5 Chat pricing and specs](https://empiriolabs.ai/models/stepaudio-2-5-chat)
 - [StepAudio 2.5 Chat API reference](https://docs.empiriolabs.ai/models/stepaudio-2-5-chat)
 - [Try StepAudio 2.5 Chat in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stepaudio-2-5-chat)
+
+[All EmpirioLabs AI examples](../../README.md)

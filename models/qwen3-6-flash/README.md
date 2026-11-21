@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.6 Flash pricing and specs](https://empiriolabs.ai/models/qwen3-6-flash)
 - [Qwen3.6 Flash API reference](https://docs.empiriolabs.ai/models/qwen3-6-flash)
 - [Try Qwen3.6 Flash in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-6-flash)
+
+[All EmpirioLabs AI examples](../../README.md)

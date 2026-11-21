@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [MiMo V2.6 Pro UltraSpeed pricing and specs](https://empiriolabs.ai/models/mimo-v2-6-pro-ultraspeed)
 - [MiMo V2.6 Pro UltraSpeed API reference](https://docs.empiriolabs.ai/models/mimo-v2-6-pro-ultraspeed)
 - [Try MiMo V2.6 Pro UltraSpeed in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=mimo-v2-6-pro-ultraspeed)
+
+[All EmpirioLabs AI examples](../../README.md)

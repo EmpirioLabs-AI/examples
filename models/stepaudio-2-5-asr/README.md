@@ -98,3 +98,5 @@ while True:
 - [StepAudio 2.5 ASR pricing and specs](https://empiriolabs.ai/models/stepaudio-2-5-asr)
 - [StepAudio 2.5 ASR API reference](https://docs.empiriolabs.ai/models/stepaudio-2-5-asr)
 - [Try StepAudio 2.5 ASR in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stepaudio-2-5-asr)
+
+[All EmpirioLabs AI examples](../../README.md)

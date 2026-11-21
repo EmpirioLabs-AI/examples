@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [GPTZero pricing and specs](https://empiriolabs.ai/models/gptzero)
 - [GPTZero API reference](https://docs.empiriolabs.ai/models/gptzero)
 - [Try GPTZero in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=gptzero)
+
+[All EmpirioLabs AI examples](../../README.md)

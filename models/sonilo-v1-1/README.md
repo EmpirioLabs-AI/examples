@@ -98,3 +98,5 @@ while True:
 - [Sonilo v1.1 pricing and specs](https://empiriolabs.ai/models/sonilo-v1-1)
 - [Sonilo v1.1 API reference](https://docs.empiriolabs.ai/models/sonilo-v1-1)
 - [Try Sonilo v1.1 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=sonilo-v1-1)
+
+[All EmpirioLabs AI examples](../../README.md)

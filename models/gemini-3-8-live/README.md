@@ -66,3 +66,5 @@ asyncio.run(main())
 
 - [Gemini 3.8 Live pricing and specs](https://empiriolabs.ai/models/gemini-3-8-live)
 - [Gemini 3.8 Live API reference](https://docs.empiriolabs.ai/models/gemini-3-8-live)
+
+[All EmpirioLabs AI examples](../../README.md)

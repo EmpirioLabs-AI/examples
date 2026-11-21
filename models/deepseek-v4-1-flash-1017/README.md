@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [DeepSeek V4.1 Flash 1017 pricing and specs](https://empiriolabs.ai/models/deepseek-v4-1-flash-1017)
 - [DeepSeek V4.1 Flash 1017 API reference](https://docs.empiriolabs.ai/models/deepseek-v4-1-flash-1017)
 - [Try DeepSeek V4.1 Flash 1017 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=deepseek-v4-1-flash-1017)
+
+[All EmpirioLabs AI examples](../../README.md)

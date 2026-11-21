@@ -87,3 +87,5 @@ print(answers["is_urgent"]["noul"], answers["department"]["choice"])
 - [Aplomb 1 pricing and specs](https://empiriolabs.ai/models/aplomb-1)
 - [Aplomb 1 API reference](https://docs.empiriolabs.ai/models/aplomb-1)
 - [Try Aplomb 1 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=aplomb-1)
+
+[All EmpirioLabs AI examples](../../README.md)

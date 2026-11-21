@@ -97,3 +97,5 @@ while True:
 
 - [OpenAI Whisper 1 pricing and specs](https://empiriolabs.ai/models/openai-whisper-1)
 - [OpenAI Whisper 1 API reference](https://docs.empiriolabs.ai/models/openai-whisper-1)
+
+[All EmpirioLabs AI examples](../../README.md)

@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Linkup Standard pricing and specs](https://empiriolabs.ai/models/linkup-standard)
 - [Linkup Standard API reference](https://docs.empiriolabs.ai/models/linkup-standard)
 - [Try Linkup Standard in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=linkup-standard)
+
+[All EmpirioLabs AI examples](../../README.md)

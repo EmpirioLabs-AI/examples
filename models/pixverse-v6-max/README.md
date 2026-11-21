@@ -98,3 +98,5 @@ while True:
 - [PixVerse V6 Max pricing and specs](https://empiriolabs.ai/models/pixverse-v6-max)
 - [PixVerse V6 Max API reference](https://docs.empiriolabs.ai/models/pixverse-v6-max)
 - [Try PixVerse V6 Max in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=pixverse-v6-max)
+
+[All EmpirioLabs AI examples](../../README.md)

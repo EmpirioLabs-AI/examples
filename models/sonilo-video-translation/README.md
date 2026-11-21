@@ -98,3 +98,5 @@ while True:
 - [Sonilo Video Translation pricing and specs](https://empiriolabs.ai/models/sonilo-video-translation)
 - [Sonilo Video Translation API reference](https://docs.empiriolabs.ai/models/sonilo-video-translation)
 - [Try Sonilo Video Translation in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=sonilo-video-translation)
+
+[All EmpirioLabs AI examples](../../README.md)

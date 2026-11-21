@@ -73,3 +73,5 @@ print(response.choices[0].message.content)
 - [Qwen3.6 Plus pricing and specs](https://empiriolabs.ai/models/qwen3-6-plus)
 - [Qwen3.6 Plus API reference](https://docs.empiriolabs.ai/models/qwen3-6-plus)
 - [Try Qwen3.6 Plus in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=qwen3-6-plus)
+
+[All EmpirioLabs AI examples](../../README.md)

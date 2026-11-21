@@ -69,3 +69,5 @@ with open("speech.mp3", "wb") as f:
 - [Gemini 3.8 Flash TTS pricing and specs](https://empiriolabs.ai/models/gemini-3-8-flash-tts)
 - [Gemini 3.8 Flash TTS API reference](https://docs.empiriolabs.ai/models/gemini-3-8-flash-tts)
 - [Try Gemini 3.8 Flash TTS in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=gemini-3-8-flash-tts)
+
+[All EmpirioLabs AI examples](../../README.md)

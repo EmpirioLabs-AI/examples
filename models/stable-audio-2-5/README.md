@@ -98,3 +98,5 @@ while True:
 - [Stable Audio 2.5 pricing and specs](https://empiriolabs.ai/models/stable-audio-2-5)
 - [Stable Audio 2.5 API reference](https://docs.empiriolabs.ai/models/stable-audio-2-5)
 - [Try Stable Audio 2.5 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=stable-audio-2-5)
+
+[All EmpirioLabs AI examples](../../README.md)

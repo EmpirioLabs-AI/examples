@@ -98,3 +98,5 @@ while True:
 - [SVI 2.0 Pro pricing and specs](https://empiriolabs.ai/models/svi-2-0-pro)
 - [SVI 2.0 Pro API reference](https://docs.empiriolabs.ai/models/svi-2-0-pro)
 - [Try SVI 2.0 Pro in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=svi-2-0-pro)
+
+[All EmpirioLabs AI examples](../../README.md)

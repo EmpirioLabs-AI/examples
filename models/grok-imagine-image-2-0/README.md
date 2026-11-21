@@ -98,3 +98,5 @@ while True:
 - [Grok Imagine Image 2.0 pricing and specs](https://empiriolabs.ai/models/grok-imagine-image-2-0)
 - [Grok Imagine Image 2.0 API reference](https://docs.empiriolabs.ai/models/grok-imagine-image-2-0)
 - [Try Grok Imagine Image 2.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=grok-imagine-image-2-0)
+
+[All EmpirioLabs AI examples](../../README.md)
