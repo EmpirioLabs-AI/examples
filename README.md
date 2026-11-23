@@ -12,7 +12,7 @@
 Runnable cURL and Python for every model in the EmpirioLabs AI catalog.
 
 <p>
-  <a href="https://empiriolabs.ai/models"><img alt="206 models" src="https://img.shields.io/badge/Models-206-1f6feb?style=flat-square"></a>
+  <a href="https://empiriolabs.ai/models"><img alt="224 models" src="https://img.shields.io/badge/Models-224-1f6feb?style=flat-square"></a>
   <a href="https://docs.empiriolabs.ai/welcome"><img alt="Documentation" src="https://img.shields.io/badge/Docs-docs.empiriolabs.ai-0a66c2?style=flat-square"></a>
   <a href="https://platform.empiriolabs.ai/dashboard/api-keys"><img alt="Get an API key" src="https://img.shields.io/badge/API%20key-Get%20one-0b8a5a?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/License-MIT--0-555555?style=flat-square"></a>
@@ -32,17 +32,34 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 
 ## Models
 
-206 models in 12 categories: [3D Generation](#3d-generation-3), [Audio Generation](#audio-generation-39), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-74), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
+224 models in 12 categories: [3D Generation](#3d-generation-20), [Audio Generation](#audio-generation-40), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-74), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
 
-### 3D Generation (3)
+### 3D Generation (20)
 
 | Model | Provider | Endpoint | Examples |
 | --- | --- | --- | --- |
 | [Hitem3D 2.0](https://empiriolabs.ai/models/hitem3d-2-0) | Hitem3D | `POST /v1/3d/generations` | [models/hitem3d-2-0](models/hitem3d-2-0) |
 | [Hyper3D Gen2](https://empiriolabs.ai/models/hyper3d-gen2) | Deemos | `POST /v1/3d/generations` | [models/hyper3d-gen2](models/hyper3d-gen2) |
+| [Meshy 6](https://empiriolabs.ai/models/meshy-6) | Meshy | `POST /v1/3d/generations` | [models/meshy-6](models/meshy-6) |
+| [Meshy 6 Lite](https://empiriolabs.ai/models/meshy-6-lite) | Meshy | `POST /v1/3d/generations` | [models/meshy-6-lite](models/meshy-6-lite) |
+| [Meshy 7.1](https://empiriolabs.ai/models/meshy-7-1) | Meshy | `POST /v1/3d/generations` | [models/meshy-7-1](models/meshy-7-1) |
+| [Meshy Animation](https://empiriolabs.ai/models/meshy-animation) | Meshy | `POST /v1/3d/generations` | [models/meshy-animation](models/meshy-animation) |
+| [Meshy Auto Split](https://empiriolabs.ai/models/meshy-auto-split) | Meshy | `POST /v1/3d/generations` | [models/meshy-auto-split](models/meshy-auto-split) |
+| [Meshy Convert](https://empiriolabs.ai/models/meshy-convert) | Meshy | `POST /v1/3d/generations` | [models/meshy-convert](models/meshy-convert) |
+| [Meshy Multi-Color Print](https://empiriolabs.ai/models/meshy-multi-color-print) | Meshy | `POST /v1/3d/generations` | [models/meshy-multi-color-print](models/meshy-multi-color-print) |
+| [Meshy Print Repair](https://empiriolabs.ai/models/meshy-print-repair) | Meshy | `POST /v1/3d/generations` | [models/meshy-print-repair](models/meshy-print-repair) |
+| [Meshy Relief](https://empiriolabs.ai/models/meshy-relief) | Meshy | `POST /v1/3d/generations` | [models/meshy-relief](models/meshy-relief) |
+| [Meshy Remesh](https://empiriolabs.ai/models/meshy-remesh) | Meshy | `POST /v1/3d/generations` | [models/meshy-remesh](models/meshy-remesh) |
+| [Meshy Resize](https://empiriolabs.ai/models/meshy-resize) | Meshy | `POST /v1/3d/generations` | [models/meshy-resize](models/meshy-resize) |
+| [Meshy Retexture](https://empiriolabs.ai/models/meshy-retexture) | Meshy | `POST /v1/3d/generations` | [models/meshy-retexture](models/meshy-retexture) |
+| [Meshy Rigging](https://empiriolabs.ai/models/meshy-rigging) | Meshy | `POST /v1/3d/generations` | [models/meshy-rigging](models/meshy-rigging) |
+| [Meshy T2](https://empiriolabs.ai/models/meshy-t2) | Meshy | `POST /v1/3d/generations` | [models/meshy-t2](models/meshy-t2) |
+| [Meshy T2.5](https://empiriolabs.ai/models/meshy-t2-5) | Meshy | `POST /v1/3d/generations` | [models/meshy-t2-5](models/meshy-t2-5) |
+| [Meshy Text to Motion](https://empiriolabs.ai/models/meshy-text-to-motion) | Meshy | `POST /v1/3d/generations` | [models/meshy-text-to-motion](models/meshy-text-to-motion) |
+| [Meshy UV Unwrap](https://empiriolabs.ai/models/meshy-uv-unwrap) | Meshy | `POST /v1/3d/generations` | [models/meshy-uv-unwrap](models/meshy-uv-unwrap) |
 | [TRELLIS.2 4B](https://empiriolabs.ai/models/trellis-2-4b) | Microsoft | `POST /v1/3d/generations` | [models/trellis-2-4b](models/trellis-2-4b) |
 
-### Audio Generation (39)
+### Audio Generation (40)
 
 | Model | Provider | Endpoint | Examples |
 | --- | --- | --- | --- |
@@ -59,6 +76,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Qwen Audio 3.0 Realtime Flash](https://empiriolabs.ai/models/qwen-audio-3-0-realtime-flash) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen-audio-3-0-realtime-flash](models/qwen-audio-3-0-realtime-flash) |
 | [Qwen Audio 3.0 Realtime Plus](https://empiriolabs.ai/models/qwen-audio-3-0-realtime-plus) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen-audio-3-0-realtime-plus](models/qwen-audio-3-0-realtime-plus) |
 | [Qwen Audio 3.0 TTS](https://empiriolabs.ai/models/qwen-audio-3-0-tts) | Alibaba Cloud | `POST /v1/audio/speech` | [models/qwen-audio-3-0-tts](models/qwen-audio-3-0-tts) |
+| [Qwen Audio 3.1 Live](https://empiriolabs.ai/models/qwen-audio-3-1-live) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen-audio-3-1-live](models/qwen-audio-3-1-live) |
 | [Qwen Audio 3.1 Realtime Flash](https://empiriolabs.ai/models/qwen-audio-3-1-realtime-flash) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen-audio-3-1-realtime-flash](models/qwen-audio-3-1-realtime-flash) |
 | [Qwen Audio 3.1 Realtime Plus](https://empiriolabs.ai/models/qwen-audio-3-1-realtime-plus) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen-audio-3-1-realtime-plus](models/qwen-audio-3-1-realtime-plus) |
 | [Qwen Audio 3.1 TTS](https://empiriolabs.ai/models/qwen-audio-3-1-tts) | Alibaba Cloud | `POST /v1/audio/speech` | [models/qwen-audio-3-1-tts](models/qwen-audio-3-1-tts) |
