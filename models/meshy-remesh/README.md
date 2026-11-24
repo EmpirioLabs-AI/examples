@@ -1,6 +1,6 @@
 # Meshy Remesh API examples
 
-Rebuilds an existing 3D model at a target face count from 100 to 300,000, with triangle or quad faces and seven export formats, ready for rigging.
+Rebuilds an existing 3D model at a face count from 100 to 300,000 or a face count level, with triangle or quad faces and seven export formats, for rigging.
 
 Meshy Remesh runs through `POST /v1/3d/generations`. The request returns a `job_id` right away; poll `GET /v1/jobs/{job_id}` until the job completes and read the output URLs from the result.
 

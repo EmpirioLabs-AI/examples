@@ -1,6 +1,6 @@
 # Meshy Relief API examples
 
-Turns a photo into a bas-relief 3D model and a depth map for 3D printing, engraving, and carving, with size, carving depth, base, and bend controls.
+Turns a photo into a bas-relief 3D model, plain or in the photo's color, and a depth map for 3D printing, engraving, and carving, with size and bend controls.
 
 Meshy Relief runs through `POST /v1/3d/generations`. The request returns a `job_id` right away; poll `GET /v1/jobs/{job_id}` until the job completes and read the output URLs from the result.
 

@@ -12,7 +12,7 @@
 Runnable cURL and Python for every model in the EmpirioLabs AI catalog.
 
 <p>
-  <a href="https://empiriolabs.ai/models"><img alt="224 models" src="https://img.shields.io/badge/Models-224-1f6feb?style=flat-square"></a>
+  <a href="https://empiriolabs.ai/models"><img alt="225 models" src="https://img.shields.io/badge/Models-225-1f6feb?style=flat-square"></a>
   <a href="https://docs.empiriolabs.ai/welcome"><img alt="Documentation" src="https://img.shields.io/badge/Docs-docs.empiriolabs.ai-0a66c2?style=flat-square"></a>
   <a href="https://platform.empiriolabs.ai/dashboard/api-keys"><img alt="Get an API key" src="https://img.shields.io/badge/API%20key-Get%20one-0b8a5a?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/License-MIT--0-555555?style=flat-square"></a>
@@ -32,9 +32,9 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 
 ## Models
 
-224 models in 12 categories: [3D Generation](#3d-generation-20), [Audio Generation](#audio-generation-40), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-74), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
+225 models in 12 categories: [3D Generation](#3d-generation-21), [Audio Generation](#audio-generation-40), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-74), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
 
-### 3D Generation (20)
+### 3D Generation (21)
 
 | Model | Provider | Endpoint | Examples |
 | --- | --- | --- | --- |
@@ -47,6 +47,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Meshy Auto Split](https://empiriolabs.ai/models/meshy-auto-split) | Meshy | `POST /v1/3d/generations` | [models/meshy-auto-split](models/meshy-auto-split) |
 | [Meshy Convert](https://empiriolabs.ai/models/meshy-convert) | Meshy | `POST /v1/3d/generations` | [models/meshy-convert](models/meshy-convert) |
 | [Meshy Multi-Color Print](https://empiriolabs.ai/models/meshy-multi-color-print) | Meshy | `POST /v1/3d/generations` | [models/meshy-multi-color-print](models/meshy-multi-color-print) |
+| [Meshy Print Analysis](https://empiriolabs.ai/models/meshy-print-analysis) | Meshy | `POST /v1/3d/generations` | [models/meshy-print-analysis](models/meshy-print-analysis) |
 | [Meshy Print Repair](https://empiriolabs.ai/models/meshy-print-repair) | Meshy | `POST /v1/3d/generations` | [models/meshy-print-repair](models/meshy-print-repair) |
 | [Meshy Relief](https://empiriolabs.ai/models/meshy-relief) | Meshy | `POST /v1/3d/generations` | [models/meshy-relief](models/meshy-relief) |
 | [Meshy Remesh](https://empiriolabs.ai/models/meshy-remesh) | Meshy | `POST /v1/3d/generations` | [models/meshy-remesh](models/meshy-remesh) |

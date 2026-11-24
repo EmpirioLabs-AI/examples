@@ -1,6 +1,6 @@
 # Meshy Rigging API examples
 
-Rigs a humanoid 3D character for animation, with nine skeleton templates, optional finger bones, and walking and running clips included.
+Rigs a humanoid character or a four-legged animal for animation, with nine skeleton templates, finger bones, and walking and running clips included.
 
 Meshy Rigging runs through `POST /v1/3d/generations`. The request returns a `job_id` right away; poll `GET /v1/jobs/{job_id}` until the job completes and read the output URLs from the result.
 

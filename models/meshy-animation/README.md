@@ -1,6 +1,6 @@
 # Meshy Animation API examples
 
-Animates a rigged 3D character with one of 678 library animations or a motion made from text, returned as glb, fbx, or usdz at a chosen frame rate.
+Animates a rigged humanoid or four-legged character with library animations, up to ten merged into one file, or a motion made from text, as glb, fbx, or usdz.
 
 Meshy Animation runs through `POST /v1/3d/generations`. The request returns a `job_id` right away; poll `GET /v1/jobs/{job_id}` until the job completes and read the output URLs from the result.
 
