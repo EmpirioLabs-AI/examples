@@ -12,7 +12,7 @@
 Runnable cURL and Python for every model in the EmpirioLabs AI catalog.
 
 <p>
-  <a href="https://empiriolabs.ai/models"><img alt="225 models" src="https://img.shields.io/badge/Models-225-1f6feb?style=flat-square"></a>
+  <a href="https://empiriolabs.ai/models"><img alt="224 models" src="https://img.shields.io/badge/Models-224-1f6feb?style=flat-square"></a>
   <a href="https://docs.empiriolabs.ai/welcome"><img alt="Documentation" src="https://img.shields.io/badge/Docs-docs.empiriolabs.ai-0a66c2?style=flat-square"></a>
   <a href="https://platform.empiriolabs.ai/dashboard/api-keys"><img alt="Get an API key" src="https://img.shields.io/badge/API%20key-Get%20one-0b8a5a?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/License-MIT--0-555555?style=flat-square"></a>
@@ -32,7 +32,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 
 ## Models
 
-225 models in 12 categories: [3D Generation](#3d-generation-21), [Audio Generation](#audio-generation-40), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-74), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
+224 models in 12 categories: [3D Generation](#3d-generation-21), [Audio Generation](#audio-generation-40), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-73), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
 
 ### 3D Generation (21)
 
@@ -173,7 +173,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Tavily Research](https://empiriolabs.ai/models/tavily-research) | Tavily | `POST /v1/research` | [models/tavily-research](models/tavily-research) |
 | [Tavily Search](https://empiriolabs.ai/models/tavily-search) | Tavily | `POST /v1/search` | [models/tavily-search](models/tavily-search) |
 
-### Text Generation (74)
+### Text Generation (73)
 
 | Model | Provider | Endpoint | Examples |
 | --- | --- | --- | --- |
@@ -186,7 +186,6 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Fugu Ultra v1.0](https://empiriolabs.ai/models/fugu-ultra-v1-0) | Sakana AI | `POST /v1/chat/completions` | [models/fugu-ultra-v1-0](models/fugu-ultra-v1-0) |
 | [Fugu Ultra v1.1](https://empiriolabs.ai/models/fugu-ultra-v1-1) | Sakana AI | `POST /v1/chat/completions` | [models/fugu-ultra-v1-1](models/fugu-ultra-v1-1) |
 | [Fugu Ultra v2.0](https://empiriolabs.ai/models/fugu-ultra-v2-0) | Sakana AI | `POST /v1/chat/completions` | [models/fugu-ultra-v2-0](models/fugu-ultra-v2-0) |
-| [Gemma 3 27B](https://empiriolabs.ai/models/gemma-3-27b) | Google | `POST /v1/chat/completions` | [models/gemma-3-27b](models/gemma-3-27b) |
 | [Gemma 4 26B-A4B](https://empiriolabs.ai/models/gemma-4-26b-a4b) | Google | `POST /v1/chat/completions` | [models/gemma-4-26b-a4b](models/gemma-4-26b-a4b) |
 | [GLM 4.5 Flash](https://empiriolabs.ai/models/glm-4-5-flash) | Z.ai | `POST /v1/chat/completions` | [models/glm-4-5-flash](models/glm-4-5-flash) |
 | [GLM 4.6V Flash](https://empiriolabs.ai/models/glm-4-6v-flash) | Z.ai | `POST /v1/chat/completions` | [models/glm-4-6v-flash](models/glm-4-6v-flash) |
