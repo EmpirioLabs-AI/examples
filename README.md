@@ -12,7 +12,7 @@
 Runnable cURL and Python for every model in the EmpirioLabs AI catalog.
 
 <p>
-  <a href="https://empiriolabs.ai/models"><img alt="224 models" src="https://img.shields.io/badge/Models-224-1f6feb?style=flat-square"></a>
+  <a href="https://empiriolabs.ai/models"><img alt="228 models" src="https://img.shields.io/badge/Models-228-1f6feb?style=flat-square"></a>
   <a href="https://docs.empiriolabs.ai/welcome"><img alt="Documentation" src="https://img.shields.io/badge/Docs-docs.empiriolabs.ai-0a66c2?style=flat-square"></a>
   <a href="https://platform.empiriolabs.ai/dashboard/api-keys"><img alt="Get an API key" src="https://img.shields.io/badge/API%20key-Get%20one-0b8a5a?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/License-MIT--0-555555?style=flat-square"></a>
@@ -32,7 +32,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 
 ## Models
 
-224 models in 12 categories: [3D Generation](#3d-generation-21), [Audio Generation](#audio-generation-40), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-73), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
+228 models in 12 categories: [3D Generation](#3d-generation-21), [Audio Generation](#audio-generation-44), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-73), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
 
 ### 3D Generation (21)
 
@@ -60,7 +60,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Meshy UV Unwrap](https://empiriolabs.ai/models/meshy-uv-unwrap) | Meshy | `POST /v1/3d/generations` | [models/meshy-uv-unwrap](models/meshy-uv-unwrap) |
 | [TRELLIS.2 4B](https://empiriolabs.ai/models/trellis-2-4b) | Microsoft | `POST /v1/3d/generations` | [models/trellis-2-4b](models/trellis-2-4b) |
 
-### Audio Generation (40)
+### Audio Generation (44)
 
 | Model | Provider | Endpoint | Examples |
 | --- | --- | --- | --- |
@@ -87,6 +87,10 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Qwen3.5 Omni Plus Realtime](https://empiriolabs.ai/models/qwen3-5-omni-plus-realtime) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen3-5-omni-plus-realtime](models/qwen3-5-omni-plus-realtime) |
 | [Qwen3.8 LiveTranslate Flash Realtime](https://empiriolabs.ai/models/qwen3-8-livetranslate-flash-realtime) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen3-8-livetranslate-flash-realtime](models/qwen3-8-livetranslate-flash-realtime) |
 | [Qwen3.8 Omni Flash Realtime](https://empiriolabs.ai/models/qwen3-8-omni-flash-realtime) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen3-8-omni-flash-realtime](models/qwen3-8-omni-flash-realtime) |
+| [Seed Audio 1.0](https://empiriolabs.ai/models/seed-audio-1-0) | ByteDance | `POST /v1/audio/generations` | [models/seed-audio-1-0](models/seed-audio-1-0) |
+| [Seed TTS 2.0](https://empiriolabs.ai/models/seed-tts-2-0) | ByteDance | `POST /v1/audio/speech` | [models/seed-tts-2-0](models/seed-tts-2-0) |
+| [Seed TTS 3.0](https://empiriolabs.ai/models/seed-tts-3-0) | ByteDance | `POST /v1/audio/speech` | [models/seed-tts-3-0](models/seed-tts-3-0) |
+| [Seed Voice Replication 2.0](https://empiriolabs.ai/models/seed-voice-replication-2-0) | ByteDance | `POST /v1/audio/generations` | [models/seed-voice-replication-2-0](models/seed-voice-replication-2-0) |
 | [Sonilo Audio Ducking](https://empiriolabs.ai/models/sonilo-audio-ducking) | Sonilo | `POST /v1/audio/generations` | [models/sonilo-audio-ducking](models/sonilo-audio-ducking) |
 | [Sonilo Sound Effects 1.0](https://empiriolabs.ai/models/sonilo-sound-effects-1-0) | Sonilo | `POST /v1/audio/generations` | [models/sonilo-sound-effects-1-0](models/sonilo-sound-effects-1-0) |
 | [Sonilo v1.1](https://empiriolabs.ai/models/sonilo-v1-1) | Sonilo | `POST /v1/audio/generations` | [models/sonilo-v1-1](models/sonilo-v1-1) |
