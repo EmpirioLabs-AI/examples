@@ -1,6 +1,6 @@
 # Seed TTS 3.0 API examples
 
-Expressive speech in 119 languages and dialects, steered by 82 inline audio tags for emotion, delivery and vocal sounds, with 541 preset voices.
+Expressive speech in 119 languages and dialects, steered by 82 inline audio tags for emotion, delivery and vocal sounds, with 541 preset voices and audio streamed over SSE or WebSocket.
 
 Seed TTS 3.0 serves speech through `POST /v1/audio/speech` and returns playable audio. Send the text to speak as `input` with the model id `seed-tts-3-0`.
 
@@ -69,6 +69,5 @@ with open("speech.mp3", "wb") as f:
 
 - [Seed TTS 3.0 pricing and specs](https://empiriolabs.ai/models/seed-tts-3-0)
 - [Seed TTS 3.0 API reference](https://docs.empiriolabs.ai/models/seed-tts-3-0)
-- [Try Seed TTS 3.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seed-tts-3-0)
 
 [All EmpirioLabs AI examples](../../README.md)

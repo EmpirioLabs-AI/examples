@@ -12,7 +12,7 @@
 Runnable cURL and Python for every model in the EmpirioLabs AI catalog.
 
 <p>
-  <a href="https://empiriolabs.ai/models"><img alt="228 models" src="https://img.shields.io/badge/Models-228-1f6feb?style=flat-square"></a>
+  <a href="https://empiriolabs.ai/models"><img alt="231 models" src="https://img.shields.io/badge/Models-231-1f6feb?style=flat-square"></a>
   <a href="https://docs.empiriolabs.ai/welcome"><img alt="Documentation" src="https://img.shields.io/badge/Docs-docs.empiriolabs.ai-0a66c2?style=flat-square"></a>
   <a href="https://platform.empiriolabs.ai/dashboard/api-keys"><img alt="Get an API key" src="https://img.shields.io/badge/API%20key-Get%20one-0b8a5a?style=flat-square"></a>
   <a href="LICENSE"><img alt="License: MIT-0" src="https://img.shields.io/badge/License-MIT--0-555555?style=flat-square"></a>
@@ -32,7 +32,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 
 ## Models
 
-228 models in 12 categories: [3D Generation](#3d-generation-21), [Audio Generation](#audio-generation-44), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-73), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-13), [Video Generation](#video-generation-37).
+231 models in 12 categories: [3D Generation](#3d-generation-21), [Audio Generation](#audio-generation-45), [Decision Models](#decision-models-1), [Document OCR](#document-ocr-1), [Embeddings](#embeddings-4), [Image Generation](#image-generation-18), [Rerankers](#rerankers-1), [Research & Search](#research--search-13), [Text Generation](#text-generation-73), [Tools & Agents](#tools--agents-2), [Transcription](#transcription-15), [Video Generation](#video-generation-37).
 
 ### 3D Generation (21)
 
@@ -60,7 +60,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Meshy UV Unwrap](https://empiriolabs.ai/models/meshy-uv-unwrap) | Meshy | `POST /v1/3d/generations` | [models/meshy-uv-unwrap](models/meshy-uv-unwrap) |
 | [TRELLIS.2 4B](https://empiriolabs.ai/models/trellis-2-4b) | Microsoft | `POST /v1/3d/generations` | [models/trellis-2-4b](models/trellis-2-4b) |
 
-### Audio Generation (44)
+### Audio Generation (45)
 
 | Model | Provider | Endpoint | Examples |
 | --- | --- | --- | --- |
@@ -88,6 +88,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Qwen3.8 LiveTranslate Flash Realtime](https://empiriolabs.ai/models/qwen3-8-livetranslate-flash-realtime) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen3-8-livetranslate-flash-realtime](models/qwen3-8-livetranslate-flash-realtime) |
 | [Qwen3.8 Omni Flash Realtime](https://empiriolabs.ai/models/qwen3-8-omni-flash-realtime) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen3-8-omni-flash-realtime](models/qwen3-8-omni-flash-realtime) |
 | [Seed Audio 1.0](https://empiriolabs.ai/models/seed-audio-1-0) | ByteDance | `POST /v1/audio/generations` | [models/seed-audio-1-0](models/seed-audio-1-0) |
+| [Seed Live Interpretation 2.0](https://empiriolabs.ai/models/seed-live-interpretation-2-0) | ByteDance | `WEBSOCKET /v1/realtime` | [models/seed-live-interpretation-2-0](models/seed-live-interpretation-2-0) |
 | [Seed TTS 2.0](https://empiriolabs.ai/models/seed-tts-2-0) | ByteDance | `POST /v1/audio/speech` | [models/seed-tts-2-0](models/seed-tts-2-0) |
 | [Seed TTS 3.0](https://empiriolabs.ai/models/seed-tts-3-0) | ByteDance | `POST /v1/audio/speech` | [models/seed-tts-3-0](models/seed-tts-3-0) |
 | [Seed Voice Replication 2.0](https://empiriolabs.ai/models/seed-voice-replication-2-0) | ByteDance | `POST /v1/audio/generations` | [models/seed-voice-replication-2-0](models/seed-voice-replication-2-0) |
@@ -262,7 +263,7 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [GPTZero](https://empiriolabs.ai/models/gptzero) | GPTZero | `POST /v1/chat/completions` | [models/gptzero](models/gptzero) |
 | [Manus](https://empiriolabs.ai/models/manus) | Manus | `POST /v1/agents/run` | [models/manus](models/manus) |
 
-### Transcription (13)
+### Transcription (15)
 
 | Model | Provider | Endpoint | Examples |
 | --- | --- | --- | --- |
@@ -274,6 +275,8 @@ Requests are billed to your EmpirioLabs AI account at each model's listed price 
 | [Qwen Audio 3.1 ASR](https://empiriolabs.ai/models/qwen-audio-3-1-asr) | Alibaba Cloud | `POST /v1/audio/transcriptions` | [models/qwen-audio-3-1-asr](models/qwen-audio-3-1-asr) |
 | [Qwen Audio 3.1 ASR Message](https://empiriolabs.ai/models/qwen-audio-3-1-asr-message) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen-audio-3-1-asr-message](models/qwen-audio-3-1-asr-message) |
 | [Qwen Audio 3.1 ASR Stream](https://empiriolabs.ai/models/qwen-audio-3-1-asr-stream) | Alibaba Cloud | `WEBSOCKET /v1/realtime` | [models/qwen-audio-3-1-asr-stream](models/qwen-audio-3-1-asr-stream) |
+| [Seed ASR 2.0](https://empiriolabs.ai/models/seed-asr-2-0) | ByteDance | `POST /v1/audio/transcriptions` | [models/seed-asr-2-0](models/seed-asr-2-0) |
+| [Seed ASR 2.0 Stream](https://empiriolabs.ai/models/seed-asr-2-0-stream) | ByteDance | `WEBSOCKET /v1/realtime` | [models/seed-asr-2-0-stream](models/seed-asr-2-0-stream) |
 | [Sonilo Proofread](https://empiriolabs.ai/models/sonilo-proofread) | Sonilo | `POST /v1/audio/transcriptions` | [models/sonilo-proofread](models/sonilo-proofread) |
 | [StepAudio 2.5 ASR](https://empiriolabs.ai/models/stepaudio-2-5-asr) | StepFun | `POST /v1/audio/transcriptions` | [models/stepaudio-2-5-asr](models/stepaudio-2-5-asr) |
 | [StepAudio 2.5 ASR Stream](https://empiriolabs.ai/models/stepaudio-2-5-asr-stream) | StepFun | `WEBSOCKET /v1/realtime` | [models/stepaudio-2-5-asr-stream](models/stepaudio-2-5-asr-stream) |

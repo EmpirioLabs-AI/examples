@@ -1,6 +1,6 @@
 # Seed TTS 2.0 API examples
 
-Context-aware speech that follows plain-language direction for emotion, tone and pace, with 203 preset voices, streaming and word timestamps.
+Context-aware speech that follows plain-language direction for emotion, tone and pace, with 203 preset voices, custom voices, word timestamps and audio streamed over SSE or WebSocket.
 
 Seed TTS 2.0 serves speech through `POST /v1/audio/speech` and returns playable audio. Send the text to speak as `input` with the model id `seed-tts-2-0`.
 
@@ -69,6 +69,5 @@ with open("speech.mp3", "wb") as f:
 
 - [Seed TTS 2.0 pricing and specs](https://empiriolabs.ai/models/seed-tts-2-0)
 - [Seed TTS 2.0 API reference](https://docs.empiriolabs.ai/models/seed-tts-2-0)
-- [Try Seed TTS 2.0 in the Playground](https://platform.empiriolabs.ai/dashboard/playground?model=seed-tts-2-0)
 
 [All EmpirioLabs AI examples](../../README.md)
